@@ -1,0 +1,14 @@
+/* Giao dien may tinh */
+@media (min-width: 1024px){
+    .d-none {
+        display: none !important;
+    }
+}
+/* Giao dien dien thoai */
+@media (max-width: 480px) {
+
+}
+/* Giao dien may tinh bang */
+@media (min-width: 480px) and (max-width: 1024px) {
+   
+}

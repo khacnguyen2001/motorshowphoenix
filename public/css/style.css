@@ -1,0 +1,331 @@
+/* Video Banner */
+.video-banner {
+    height: 100%;
+    width: 100%;
+}
+
+/* San Pham Chinh: Phuong Hoang Lua */
+.main-product {
+    margin-top: 103px;
+}
+
+.main-product .main-product-phoenix .main-product-title {
+    margin-bottom: 100px;
+}
+
+.main-product .main-product-phoenix .main-product-title h2 {
+    color: var(--primary);
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.main-product .main-product-phoenix .main-product-title p {
+    font-size: 20px;
+    color: var(--white);
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+.main-product .main-product-phoenix .main-product-phoenix-item {
+    max-height: 546px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-show {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-item {
+    overflow: scroll;
+    overflow-x: hidden;
+    direction: rtl;
+    padding-left: 13px;
+}
+
+/* width */
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-item::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-item::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 3px;
+    background: rgba(243, 115, 33, 0.2);
+}
+   
+/* Handle */
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-item::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 3px;
+}
+  
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-item/* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-item ul {
+    width: 169px;
+    height: 165px;
+}
+
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-item ul li {
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-item ul li img {
+    width: 101px;
+    height: 142px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-image {
+    border: 1px solid #FFFFFF;
+    margin-left: 16px;
+    width: 428px;
+    margin-right: 43px;
+} 
+
+.main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-image .phoenix-show-image-logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 22px;
+    padding-top: 34px;
+    padding-bottom: 90px;
+}
+
+.main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-image .phoenix-show-image-logo img:first-child {
+    width: 202px;
+    height: 34px;
+}
+
+.main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-image .phoenix-show-image-logo img:last-child {
+    width: 77px;
+    height: 16px;
+}
+
+.main-product-phoenix-item .main-product-phoenix-show .main-product-phoenix-show-image .phoenix-show-image {
+    width: 231px;
+    height: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 88px;
+}
+
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-content {
+    max-width: 428px;
+}
+
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-content ul li {
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    padding-bottom: 25px;
+}
+
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-content .main-product-phoenix-price {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-content .main-product-phoenix-price span {
+    font-size: 30px;
+    color: var(--white);
+    font-weight: 700;
+    letter-spacing: 7px;
+}
+
+.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-content button {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 20px 30px;
+    border: 1px solid var(--primary);
+    background-color: inherit;
+    color: var(--white);
+    border-radius: 5px;
+}
+
+/* Thời Gian Dem Nguoc */
+.countdown-time {
+    margin-top: 60px;
+    margin-bottom: 74px;
+}
+
+.countdown-time .countdown ul {
+    text-align: center;
+}
+
+.countdown-time .countdown ul li {
+    display: inline-block;
+    font-size: 24px;
+    list-style-type: none;
+    color: var(--white);
+    background: url(/share/image/bg-time.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 141px;
+    height: 83px;
+    text-align: center;
+    line-height: 83px;
+}
+
+.countdown-time .countdown ul li span {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    color: var(--white);
+}
+
+/* Banner Trung Thuong Start */
+.reward {
+    background: url(/share/image/bg-rewards.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.reward .reward-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+}
+
+.reward .reward-content .reward-content-title {
+    padding-top: 52px;
+}
+
+.reward .reward-content .reward-content-title .reward-content-title-detail {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 120px;
+}
+
+.reward .reward-content .reward-content-title .reward-content-title-detail p {
+    color: var(--white);
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.reward .reward-content .reward-content-title .reward-content-title-detail h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary);
+    letter-spacing: 7px;
+}
+
+.reward .reward-content .reward-content-title .reward-content-title-desc li {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 6px;
+}
+
+.reward .reward-content .reward-image {
+    width: 327px;
+    height: 403px;
+    margin-left: 121px;
+}
+.reward .reward-button {
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+
+.reward .reward-button .reward-button-register,
+.reward .reward-button .reward-button-rules {
+    border-radius: 5px;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.reward .reward-button .reward-button-register {
+    background-color: var(--primary); 
+    padding: 20px 55px;
+    margin-right: 12px;
+}
+
+.reward .reward-button .reward-button-rules {
+    background-color: inherit;
+    border: 1px solid var(--primary);
+    padding: 20px 27px;
+    margin-left: 12px;
+}
+
+/* Banner Trung Thuong End */
+/* San Pham Moi Start */
+.new-product {
+    margin-top: 71px;
+}
+
+.new-product h2 {
+    font-size: 32px;
+    color: var(--primary);
+    text-align: center;
+    letter-spacing: 7px;
+    margin-bottom: 71px;
+}
+
+.new-product .new-product-decs {
+    display: flex;
+    justify-content: center;
+}
+
+.new-product .new-product-decs p {
+    font-size: 20px;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-right: 10px;
+    line-height: 30px;
+}
+
+.new-product .new-product-decs .new-product-decs-img {
+    width: 108px;
+    height: 23px;
+}
+
+.new-product .new-product-text p {
+    font-size: 16px;
+    text-align: center;
+    color: var(--white);
+    line-height: 20px;
+    padding: 52px 0;
+    width: 71%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+
+.new-product .new-product-detail{
+    position: relative;
+}
+
+.new-product .new-product-detail .new-product-detail-img {
+    width: 312px;
+    height: 399px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+/* San Pham Moi End*/

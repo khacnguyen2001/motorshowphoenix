@@ -1,0 +1,83 @@
+@font-face {
+    font-family: font_strong;
+    src: url("/share/font/VI_BMWMotorrad-Bold.ttf") format("truetype"),
+      url("../../share/font/VI_BMWMotorrad-BoldItalic.ttf") format("truetype"),
+      url("../../share/font/VI_BMWMotorrad-Heavy.ttf") format("truetype"),
+      url("../../share/font/VI_BMWMotorrad-HeavyItalic.ttf") format("truetype"),
+      url("../../share/font/VI_BMWMotorrad-Italic.ttf") format("truetype"),
+      url("../../share/font/VI_BMWMotorrad-Light.ttf") format("truetype"),
+      url("../../share/font/VI_BMWMotorrad-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+:root {
+    --yellow: #ffcb05;
+    --black: #000;
+    --white: #fff;
+    --primary: #F37321;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+  
+html {
+    font-size: 10px;
+}
+  
+body {
+    font-family: "vi_bmwmotorrad-regul", sans-serif;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+}
+
+input,
+button {
+    outline: 0;
+    border: none;
+    cursor: pointer;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+}
+  
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*  */
+.container {
+    max-width: 1107px;
+    margin: 0 auto;
+}
