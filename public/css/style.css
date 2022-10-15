@@ -149,17 +149,6 @@
     letter-spacing: 7px;
 }
 
-.main-product-phoenix .main-product-phoenix-item .main-product-phoenix-content button {
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding: 20px 30px;
-    border: 1px solid var(--primary);
-    background-color: inherit;
-    color: var(--white);
-    border-radius: 5px;
-}
-
 /* Thời Gian Dem Nguoc */
 .countdown-time {
     margin-top: 60px;
@@ -248,15 +237,6 @@
     padding-bottom: 80px;
 }
 
-.reward .reward-button .reward-button-register,
-.reward .reward-button .reward-button-rules {
-    border-radius: 5px;
-    color: var(--white);
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-    text-align: center;
-}
 
 .reward .reward-button .reward-button-register {
     background-color: var(--primary); 
@@ -290,7 +270,7 @@
     justify-content: center;
 }
 
-.new-product .new-product-decs p {
+.new-product .new-product-decs {
     font-size: 20px;
     color: var(--white);
     text-transform: uppercase;
@@ -299,7 +279,12 @@
     line-height: 30px;
 }
 
-.new-product .new-product-decs .new-product-decs-img {
+.new-product .new-product-decs p {
+    padding-right: 15px;
+}
+
+.new-product .new-product-decs .new-product-decs-img
+ {
     width: 108px;
     height: 23px;
 }
@@ -329,3 +314,204 @@
     transform:translate(-50%,-50%);
 }
 /* San Pham Moi End*/
+/* Bo Suu Tap Chien Binh Start */
+.cbaz {
+    margin-top: 73px;
+}
+
+.cbaz .cbaz-decs {
+    display: flex;
+    justify-content: center;
+}
+
+.cbaz .cbaz-decs {
+    font-size: 20px;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-right: 10px;
+    line-height: 30px;
+}
+
+.cbaz .cbaz-decs p {
+    padding-right: 15px;
+}
+
+.cbaz .cbaz-decs .cbaz-decs-img
+ {
+    width: 96px;
+    height: 22px;
+}
+
+.cbaz .cbaz-text p {
+    font-size: 16px;
+    text-align: center;
+    color: var(--white);
+    line-height: 20px;
+    padding: 52px 0;
+    width: 71%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.cbaz .cbaz-product {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 87px;
+}
+
+.cbaz .cbaz-product .cbaz-image {
+    position: relative;
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+    width: 467px;
+    height: 594px;
+}
+
+.cbaz-product .bg {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.cbaz-product .bg-iron {
+    background-image: url('/share/image/ironBg.png');
+}
+
+.cbaz-product .bg-captain {
+   background-image: url('/share/image/captainBg.png');
+}
+
+.cbaz-product .bg-thor {
+   background-image: url('/share/image/thorBg.png');
+}
+
+.cbaz-product .cbaz-image .cbaz-image-item {
+    width: 288px;
+    height: 373px;
+}
+
+.cbaz-product .cbaz-image .cbaz-image-item {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.cbaz-product .cbaz-content {
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+.cbaz-product .cbaz-content .cabz-content-name {
+    width: 172px;
+    height: 53px;
+    display: inline-block;
+}
+
+.cbaz-product .cbaz-content p {
+    font-size: 32px;
+    letter-spacing: 7px;
+    color: var(--white);
+}
+
+.cbaz-product .cbaz-content span {
+    display: block;
+    color: var(--white);
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 3px;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    max-width: 453px;
+    text-align: left;
+}
+/* Bo Suu Tap Chien Binh End */
+/* AZSTARS START */
+.azstars-product {
+    margin-top: 122px;
+    margin-bottom: 55px;
+}
+
+.azstars-product .azstars-product-decs {
+    display: flex;
+    justify-content: center;
+}
+
+.azstars-product .azstars-product-decs {
+    font-size: 20px;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-right: 10px;
+    line-height: 40px;
+}
+
+.azstars-product .azstars-product-decs p {
+    padding-right: 15px;
+}
+
+.azstars-product .azstars-product-decs .azstars-product-decs-img
+ {
+    width: 142px;
+    height: 37px;
+}
+
+.azstars-product .azstars-product-text p {
+    font-size: 16px;
+    text-align: center;
+    color: var(--white);
+    line-height: 20px;
+    padding: 52px 0;
+    width: 71%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.azstars-product .btn {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 54px;
+}
+
+.azstars-product .azstars-product-image {
+    position: relative;
+}
+
+.azstars-product .azstars-product-image .azstars-product-image-item {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+/* AZSTARS END */
+
+/* FOOTER */
+.motorshow {
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/share/image/imgFooter.png');
+}
+
+.motorshow .motorshow-menu .motorshow-menu-logo {
+    width: 187px;
+    height: 22px;
+}
+
+.motorshow .motorshow-menu ul li {
+    display: inline-block;
+}
+
+.motorshow .motorshow-menu ul li a {
+    font-size: 12px;
+    color: var(--white);
+    padding-left: 10px;
+    border-left: 1px solid var(--white);
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+}

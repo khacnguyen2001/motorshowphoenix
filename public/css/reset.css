@@ -76,8 +76,25 @@ a {
     cursor: pointer;
 }
 
-/*  */
+/* TI LE KHUNG HINH */
 .container {
     max-width: 1107px;
     margin: 0 auto;
 }
+/* BUTTON */
+.btn {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 20px 30px;
+    border: 1px solid var(--primary);
+    background-color: inherit;
+    color: var(--white);
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+/* PADDING CUSTOMS */
+.pl-80 {
+    padding-left: 180px !important;
+}
+
