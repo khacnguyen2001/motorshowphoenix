@@ -79,18 +79,23 @@
         margin-bottom: 60px;
     }
 
-    .click p {
-        text-align: center;
-        font-size: 14px;
-        letter-spacing: 2px;
-        margin-bottom: 28px;
+    .click {
+        color: var(--white);
+        padding: 20px 0;
+    }
+
+    .click > p {
+        text-align: center !important;
+        font-size: 14px !important;
+        letter-spacing: 2px !important;
+        margin-bottom: 28px !important;
     }
 
     .click i {
-        text-align: center;
-        font-size: 32px;
-        margin: 0 auto;
-        display: block;
+        text-align: center !important;
+        font-size: 32px !important;
+        margin: 0 auto !important;
+        display: block !important;
     }
 
     .reward .reward-content {
@@ -247,6 +252,7 @@
 
     .azstars-product {
         margin-bottom: 0 !important;
+        margin-top: 0 !important;
     }
 
     .motorshow .container-footer {
@@ -256,6 +262,10 @@
     .motorshow .container-footer .motorshow-slogan p {
         text-align: justify !important;
         letter-spacing: 1px !important;
+    }
+
+    .cbaz-product .cbaz-content > p {
+        letter-spacing: 0 !important;
     }
 
     .motorshow .container-footer .motorshow-menu .motorshow-menu-logo {
@@ -294,8 +304,6 @@
 
     }
 }    
-
-
 /* Giao dien may tinh bang */
 @media (min-width: 480px) and (max-width: 1024px) {
    
