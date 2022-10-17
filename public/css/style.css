@@ -392,7 +392,8 @@
     height: 373px;
 }
 
-.cbaz-product .cbaz-image .cbaz-image-item {
+.cbaz-product .cbaz-image .cbaz-image-item,
+.cbaz-product .cbaz-image .cbaz-image-item-2 {
     position: absolute;
     left:50%;
     top:50%;
@@ -424,7 +425,7 @@
     font-size: 16px;
     line-height: 27px;
     letter-spacing: 3px;
-    padding-bottom: 70px;
+    padding-bottom: 34px;
     padding-top: 50px;
     max-width: 453px;
     text-align: left;
@@ -486,32 +487,150 @@
     left:50%;
     top:50%;
     transform:translate(-50%,-50%);
+    width: 353px;
+    height: 422px;
 }
 /* AZSTARS END */
 
 /* FOOTER */
 .motorshow {
-    width: 100%;
     overflow: hidden;
     background-size: cover;
     background-position: center;
     background-image: url('/share/image/imgFooter.png');
 }
 
-.motorshow .motorshow-menu .motorshow-menu-logo {
-    width: 187px;
-    height: 22px;
+.motorshow .container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 52px;
 }
 
-.motorshow .motorshow-menu ul li {
+.motorshow .container-footer .motorshow-menu,
+.motorshow .container-footer .motorshow-contact,
+.motorshow .container-footer .motorshow-slogan {
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+}
+
+.motorshow .container-footer .motorshow-menu .motorshow-menu-logo {
+    width: 187px;
+    height: 22px;
+    margin-bottom: 26px;
+}
+
+.motorshow .container-footer .motorshow-menu ul li {
     display: inline-block;
 }
 
-.motorshow .motorshow-menu ul li a {
+.motorshow .container-footer .motorshow-menu ul li a {
     font-size: 12px;
     color: var(--white);
     padding-left: 10px;
-    border-left: 1px solid var(--white);
-    padding-bottom: 10px;
+    padding-right: 10px;
+    border-right: 1px solid var(--white);
+    margin-bottom: 10px;
     letter-spacing: 3px;
 }
+
+.motorshow .container-footer .motorshow-contact a {
+    font-size: 13px;
+    color: var(--white);
+}
+
+.container-footer .motorshow-contact .motorshow-contact-list {
+    display: flex;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.motorshow-contact .motorshow-contact-list .motorshow-contact-email {
+    margin-right: 20px;
+}
+
+.motorshow-contact .motorshow-contact-hcm,
+.motorshow-contact .motorshow-contact-hn {
+    word-spacing: 5px
+}
+
+.motorshow-contact .motorshow-contact-hcm {
+    margin-bottom: 10px;
+}
+
+.motorshow-contact .motorshow-contact-list .motorshow-contact-phone {
+    letter-spacing: 3px;
+}
+
+.motorshow .container-footer .motorshow-slogan p {
+    color: var(--white);
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-top: 22px;
+    float: right;
+}
+
+.motorshow .container-footer .motorshow-slogan span {
+    color: var(--white);
+    font-style: italic;
+    font-size: 12px;
+    display: block;
+    padding-top: 37px;
+    text-align: right;
+}
+
+/* Slideshow Mobile */
+/* Slideshow container */
+.mySlides {
+    position: relative;
+}
+
+
+
+.slideshow-container {
+    max-width: 480px;
+    margin: auto;
+  } 
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+.text img {
+    margin-top: 120px;
+}
+
+.number-img {
+    width: 171px;
+    height: 222px;
+    position: absolute;
+    left: 50%;
+    top: 33%;
+    transform: translate(-50%,-50%);
+}
+  
+.active {
+    background-color: #717171;
+}
+  
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+

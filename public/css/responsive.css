@@ -6,8 +6,296 @@
 }
 /* Giao dien dien thoai */
 @media (max-width: 480px) {
+    .container {
+        max-width: 340px !important;
+    }
 
-}
+    .fsz-10 {
+        font-size: 10px !important;
+    }
+
+    .fsz-12 {
+        font-size: 12px !important;
+    }
+
+    .fsz-16 {
+        font-size: 16px !important;
+    }
+
+    .fsz-18 {
+        font-size: 18px !important;
+    }
+
+    .d-none-mb {
+        display: none !important;
+    }
+
+
+    .main-product .main-product-phoenix .main-product-title p {
+        line-height: 14px !important;
+        letter-spacing: 2px !important;
+    }
+
+    .main-product {
+        margin-top: 30px !important;
+    }
+
+    .german {
+        width: 203px;
+        height: 34px;
+    }
+
+    .phoenix-show-image-logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        padding: 0 10px;
+    }
+
+    .info {
+        color: var(--white);
+        margin-top: 52px;
+        padding: 0 10px;
+    }
+
+    .mtaz {
+        width: 77px;
+        height: 16px;
+    }
+
+    .content p {
+        text-align: left;
+        font-size: 12px;
+        letter-spacing: 2px;
+        line-height: 20px;
+    }
+
+    .main-product-phoenix-price {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .click p {
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin-bottom: 28px;
+    }
+
+    .click i {
+        text-align: center;
+        font-size: 32px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .reward .reward-content {
+        padding-top: 50px !important;
+    }
+
+    .reward .reward-content .reward-image {
+        margin-left: 0 !important;
+        width: 130px;
+        height: 159px;
+        margin-top: 16px;
+    }
+
+    .reward .reward-content .reward-content-title {
+        padding-top: 0 !important;
+        flex: 1;
+    }
+
+    .reward .reward-content .reward-content-title .reward-content-title-detail p {
+        margin-bottom: 7px;
+    }
+
+    .reward .reward-content .reward-content-title .reward-content-title-desc ul {
+        padding-left: 10px;
+    }
+
+    .reward .reward-content .reward-content-title .reward-content-title-desc li {
+        text-align: left !important;
+        line-height: 19px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .reward .reward-content .reward-content-title .reward-content-title-detail {
+        padding-bottom: 32px !important;
+    }
+
+    .reward .reward-button .reward-button-rules {
+        background-color: #000;
+        border: 1px solid var(--primary);
+        padding: 7px 42px !important;
+        margin-left: 5px !important;
+    }
+
+    .reward .reward-button .reward-button-register {
+        padding: 7px 42px !important;
+        margin-right: 5px !important;
+    }
+
+    .reward-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .reward .reward-button {
+        padding-bottom: 0 !important;
+    }
+
+    .btn {
+        letter-spacing: 0 !important;
+    }
+
+    .new-product h2 {
+        letter-spacing: 3px !important;
+    }
+
+    .new-product .new-product-decs {
+        letter-spacing: 2px;
+        margin-bottom: 44px;
+    }
+
+    .azstars-product .azstars-product-decs {
+        letter-spacing: 2px !important;
+    }
+
+    .new-product .new-product-detail .new-product-detail-img {
+        width: 177px !important;
+        height: 226px !important;
+    }
+
+    .new-product .new-product-text p {
+        text-align: justify !important;
+        padding: 52px 0 0 0 !important;
+        letter-spacing: 2px !important;
+        width: 80% !important;
+    }
+
+    .cbaz .cbaz-product {
+        display: inline-block !important;
+    }
+
+    .cbaz .cbaz-decs {
+        margin-bottom: 27px;
+    }
+
+    .cbaz-product .cbaz-image .cbaz-image-item {
+        width: 190px !important;
+        height: 245px !important;
+    }
+
+    .cbaz .cbaz-product .cbaz-image {
+        height: 325px !important;
+        width: auto !important;
+    }
+
+    .cbaz-product .cbaz-image .cbaz-image-item {
+        left: 57% !important;
+    }
+    
+    .cbaz-product .cbaz-image .cbaz-image-item-2 {
+        left: 28% !important;
+    }
+
+    .cbaz-product .cbaz-content .cabz-content-name {
+        width: 123px !important;
+        height: 34px !important;
+    }
+
+    .cbaz-product .cbaz-content {
+        padding: 0 40px;
+    }
+
+    .cbaz-product .cbaz-content span {
+        line-height: 20px !important;
+        letter-spacing: 2px !important;
+    }
+
+    .pl-80 {
+        padding-left: none !important;
+    }
+
+    .azstars-product .azstars-product-image .azstars-product-image-item {
+        width: 271px;
+        height: 325px;
+    }
+
+    .azstars-product .azstars-product-text p {
+        text-align: justify !important;
+        width: 84% !important;
+    }
+
+    .motorshow .container-footer {
+        display: inline-block !important;
+    }
+
+    .motorshow {
+        background-image: none !important;
+    }
+
+    .container-footer .motorshow-contact .motorshow-contact-list {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    .azstars-product {
+        margin-bottom: 0 !important;
+    }
+
+    .motorshow .container-footer {
+        padding: 0 40px !important;
+    }
+    
+    .motorshow .container-footer .motorshow-slogan p {
+        text-align: justify !important;
+        letter-spacing: 1px !important;
+    }
+
+    .motorshow .container-footer .motorshow-menu .motorshow-menu-logo {
+        margin: 0 auto !important;
+    }
+
+    .motorshow .container-footer .motorshow-slogan p {
+        padding-top: 52px !important;
+    }
+
+    .motorshow-contact .motorshow-contact-list .motorshow-contact-phone {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .motorshow-contact .motorshow-contact-hn {
+        padding-bottom: 48px;
+    }
+
+    .motorshow-contact .motorshow-contact-hcm, .motorshow-contact .motorshow-contact-hn {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bgFooter-mb {
+        position: relative;
+    }
+
+    .copyRight {
+        position: absolute;
+        left: 5%;
+        color: var(--white);
+        font-size: 12px;
+        font-style: italic;
+
+    }
+}    
+
+
 /* Giao dien may tinh bang */
 @media (min-width: 480px) and (max-width: 1024px) {
    
