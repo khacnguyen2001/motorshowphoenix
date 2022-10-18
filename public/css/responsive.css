@@ -214,6 +214,10 @@
         height: 34px !important;
     }
 
+    .cbaz-product .cbaz-content .cabz-content-name-2 {
+        width: 219px !important;
+    }
+
     .cbaz-product .cbaz-content {
         padding: 0 40px;
     }
@@ -306,5 +310,139 @@
 }    
 /* Giao dien may tinh bang */
 @media (min-width: 480px) and (max-width: 1024px) {
+   .d-none-ip {
+        display: none !important;
+   }
+
+   .container {
+        max-width: 670px !important;
+   }
+
+   .phoenix-show-image-logo {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+   }
+
+   .mtaz {
+        line-height: 88px;
+   }
+
+   .content p {
+        text-align: left;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 28px;
+    }
+
+    .info {
+        color: var(--white);
+        margin-top: 52px;
+        padding: 0 10px;
+    }
+
+    .main-product-phoenix-price {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .click {
+        color: var(--white);
+        padding: 20px 0;
+    }
+
+    .click > p {
+        text-align: center !important;
+        font-size: 18px !important;
+        letter-spacing: 2px !important;
+        margin-bottom: 28px !important;
+    }
+
+    .click i {
+        text-align: center !important;
+        font-size: 32px !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+
+    .reward .reward-content .reward-content-title .reward-content-title-detail {
+        padding-bottom: 36px !important;
+    }
+
+    .reward .reward-content .reward-content-title .reward-content-title-detail p {
+        font-size: 18px !important;
+    }
+
+    .reward .reward-content .reward-content-title .reward-content-title-detail h2 {
+        font-size: 28px !important;
+    }
+
+    .reward .reward-content .reward-content-title .reward-content-title-desc li {
+        font-size: 20px !important;
+        line-height: 28px !important;
+        letter-spacing: 4px !important;
+    }
+
+    .reward .reward-button {
+        padding-top: 0px !important;
+        padding-bottom: 32px !important;
+    }
+
+    .new-product .new-product-detail .new-product-detail-img {
+        width: 212px !important;
+        height: 226px !important;
+    }
+
+    .cbaz-product .cbaz-content {
+        padding-top: 0px !important;
+        padding-left: 28px !important;
+    }
+
+    .cbaz-product .cbaz-content p {
+        font-size: 24px !important;
+        letter-spacing: 4px !important;
+    }
+
+    .cbaz-product .cbaz-content span {
+        padding-top: 28px !important;
+        padding-bottom: 48px !important;
+    }
+
+    .cbaz {
+        margin-top: 0 !important;
+    }
+
+    .cbaz .cbaz-text p {
+        width: 100% !important;
+    }
+
+    .azstars-product .azstars-product-image .azstars-product-image-item {
+        width: 200px !important;
+        height: auto !important;
+    }
+
+    .motorshow {padding-bottom: 40px !important;}
+
+    .motorshow .container-footer .motorshow-slogan p {
+        letter-spacing: 2px !important;
+    }
+
+    .container-footer .motorshow-contact .motorshow-contact-list {
+        margin-bottom: 28px !important;
+    }
+
+    .btn-ip {
+        display: block !important; 
+        margin: 0 auto !important;
+    }
+
+    .azstars-product .azstars-product-image {
+        margin-top: 20px;
+    }
+
    
+
 }
