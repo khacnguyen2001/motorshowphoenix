@@ -307,6 +307,83 @@
         font-style: italic;
 
     }
+
+    .rules-product .rules-product-img {
+        width: 128px !important;
+        height: auto !important;
+    }
+
+    .rules .rules-footer {
+        padding-bottom: 0 !important;
+        padding-top: 20px;
+    }
+
+    table {
+        width: 90% !important;
+    }
+
+    .rules .rules-title h2 {
+        font-size: 20px !important;
+        letter-spacing: 4px !important;   
+        margin-bottom: 20px !important;
+    }
+
+    .rules .rules-title p {
+        letter-spacing: 0 !important;
+        font-size: 14px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .rules .rules-time {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+        margin-bottom: 32px !important;
+    }
+
+    .rules .rules-title span {
+        font-size: 14px !important;
+        letter-spacing: 2px !important;
+        max-width: 100% !important;
+    }
+
+    .rules .rules-time ul li p, .rules .rules-time h3 {
+        margin-bottom: 16px !important;
+    }
+
+    .rules .rules-time ul li > span {
+        word-spacing:  2px !important;
+    }
+
+    .rules .rules-time h2 {
+        padding-bottom: 32px !important;
+    }
+
+    .rules .rules-time span {
+        font-size: 14px !important;
+    }
+
+    .modal-form .modal-container {
+        top: 27% !important;
+        width: 350px !important;
+        min-height: 350px !important;
+    }
+
+    .box-main-form form .form-group input, .options li, .select-btn {
+        height: 32px !important;
+    }
+
+    .select-button span {
+        line-height: 24px !important;
+    }
+
+    .select-btn i {
+        line-height: 24px !important;
+    }
+
+    .box-main-form form .all-group .btn-submit {
+        height: 32px !important;
+        font-size: 16px !important;
+    }
 }    
 /* Giao dien may tinh bang */
 @media (min-width: 480px) and (max-width: 1024px) {
@@ -443,6 +520,22 @@
         margin-top: 20px;
     }
 
-   
+    .rules .rules-title span {
+        max-width: 80% !important;
+    }
+
+    .rules .rules-time {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .rules .rules-footer {
+        padding-bottom: 0 !important;
+    }
+
+    .rules-product .rules-product-img {
+        width: 210px !important;
+        height: auto !important;
+    }
 
 }

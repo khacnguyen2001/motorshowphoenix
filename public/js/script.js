@@ -32,15 +32,43 @@
             document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
             document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
             document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-  
-          //do something later when date is reached
-        //   if (distance < 0) {
-        //     document.getElementById("headline").innerText = "It's my birthday!";
-        //     document.getElementById("countdown").style.display = "none";
-        //     document.getElementById("content").style.display = "block";
-        //     clearInterval(x);
-        //   }
-          //seconds
         }, 0)
     }());
+//ĐÓNG PHẦN HIỂN THỊ THÔNG BÁO
+// CLICK SHOW FORM O PCy
+$(document).ready(function () {
+  $("#Mybtn-click").click(function () {
+    $("#modal-form").show();
+  });
+
+  $("#closeBtn").click(function () {
+    $("#modal-form").hide();
+  });
+
+  $("#back").click(function () {
+    $("#thongso").hide();
+  });
+
+  $("#back-rules").click(function () {
+    $("#rules").hide();
+  });
+
+  $(document).on("click","#successBtn",function() {
+    $('#success').show();
+  });
+
+
+  $(document).on("click","#thongsoBtn",function() {
+    $('#thongso').show();
+  });
+
+  $("#thele").click(function () {
+    $("#rules").show();
+  });
+
+
+});
+// CLOSE FORM
+
+
 

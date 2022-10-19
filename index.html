@@ -8,6 +8,7 @@
     <!-- Link CSS -->
     <link rel="stylesheet" href="/public/css/reset.css">
     <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/popup.css">
     <link rel="stylesheet" href="/public/css/responsive.css">
     <link rel="icon" href="https://aozoom.com.vn/wp-content/uploads/2021/07/cropped-cropped-aozoom-logo-32x32.png" sizes="32x32" />
     <link
@@ -75,7 +76,7 @@
                             <span>28.000.000 VNĐ</span>
                         </div>
 
-                        <button class="btn d-none-mb">THÔNG SỐ KỸ THUẬT</button>
+                        <button id="thongsoBtn" class="btn d-none-mb">THÔNG SỐ KỸ THUẬT</button>
                     </div>
                 </div>
             </div>
@@ -141,7 +142,7 @@
                 <p>Thông số kỹ thuật</p>
                 <i class="fal fa-chevron-down"></i>
             </div>
-            <button class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
+            <button id="thongsoBtn" class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
            </div>
         </div>
     </section>
@@ -166,7 +167,7 @@
             <div class="reward-content">
                 <div class="reward-content-title">
                     <div class="reward-content-title-detail">
-                        <p class="fsz-12">ĐĂNG KÝ VÀ TRÚNG NGAY</p>
+                        <p  class="fsz-12">ĐĂNG KÝ VÀ TRÚNG NGAY</p>
                         <h2 class="fsz-16">IPHONE 14 PRO MAX</h2>
                     </div>
                     <ul class="reward-content-title-desc">
@@ -183,8 +184,8 @@
             </div>
 
             <div class="reward-button">
-                <button class="btn reward-button-register fsz-10">Đăng ký ngay!</button>
-                <button class="btn reward-button-rules fsz-10">Thể lệ chương trình</button>
+                <button id="Mybtn-click" class="btn reward-button-register fsz-10">Đăng ký ngay!</button>
+                <button id="thele" class="btn reward-button-rules fsz-10">Thể lệ chương trình</button>
             </div>
         </div>
     </section>
@@ -250,7 +251,7 @@
                     <p>Thông số kỹ thuật</p>
                     <i class="fal fa-chevron-down"></i>
                 </div>      
-                <button class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
+                <button id="thongsoBtn" class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
             </div>
         </div>
         <!-- IRON END -->
@@ -273,7 +274,7 @@
                     <p>Thông số kỹ thuật</p>
                     <i class="fal fa-chevron-down"></i>
                 </div>       
-                <button class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
+                <button id="thongsoBtn" class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
             </div>
 
             <div class="cbaz-image bg bg-captain d-none-mb">
@@ -304,7 +305,7 @@
                     <p>Thông số kỹ thuật</p>
                     <i class="fal fa-chevron-down"></i>
                 </div>       
-                <button class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
+                <button id="thongsoBtn" class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
             </div>
         </div>
         <!-- THOR END -->
@@ -323,7 +324,7 @@
             <div class="azstars-product-text d-none-mb">
                 <p class="fsz-12">Khắc họa anh hùng đời thực, những con người bình thường nhưng bên trong là sức mạnh phi thường. Họ mạnh mẽ, thầm lặng chiến đấu để bảo vệ ánh sáng công lý và tương lai tươi đẹp bằng cả trái tim</p>
             </div>
-            <button class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
+            <button id="thongsoBtn" class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
         </div>
 
         <div class="azstars-product-image">
@@ -404,9 +405,317 @@
         </div>
     </footer>
     <!-- FOOTER END -->
+
+        <!-- FORM THE LE CHUONG TRINH -->
+        <section class="rules" id="rules">
+            <div class="rules-heading">
+                <div class="rules-heading-image">
+                    <img class="img1" src="/share/image/heading-1.png" alt="Ảnh Heading">
+                    <img class="img2"  src="/share/image/heading-1.png" alt="Ảnh Heading">
+                </div>                
+            </div>
+            <div class="rules-container">
+                    
+                    <div class="rules-title">
+                        <h2>THỂ LỆ CHƯƠNG TRÌNH</h2>
+                        <p>VIETNAM MOTO SHOW 2022, gian hàng MT GROUP</p>
+                        <span>Khách mua sản phẩm đèn tăng sáng Phượng Hoàng Lửa của AOZOOM VIỆT NAM, mỗi đơn hàng ứng với 1 mã quay số trúng thưởng các sản phẩm dưới đây</span>
+                    </div>
+                    <div class="rules-reward">                     
+                        <div class="rules-reward-items">
+                            <div class="rules-reward-img">
+                                <img src="share/image/airpod.png" alt="Apple Watch 7">
+                            </div>
+                            <div class="rules-reward-name airpod">
+                                <p>2 AIRPOD PRO 2</p>
+                            </div>
+                        </div>         
+                        <div class="rules-reward-items">
+                            <div class="rules-reward-img">
+                                <img src="share/image/phone.png" alt="Apple Watch 7">
+                            </div>
+                            <div class="rules-reward-name iphone">
+                                <p>1 IPHONE 14 PRO MAX 256GB</p>
+                                <p>1 IPHONE 14 PRO 256GB</p>
+                            </div>
+                        </div>
+                        <div class="rules-reward-items">
+                            <div class="rules-reward-img">
+                                <img src="share/image/watch.png" alt="Apple Watch 7">
+                            </div>
+                            <div class="rules-reward-name watch">
+                                <p>1 APPLE WATCH 7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rules-time">
+                        <h2>Thời gian chương trình</h2>
+                        <ul>
+                            <li>
+                                <p>21 - 26/10: <span>Thời gian đặt hàng online</span></p>
+                            </li>
+                            <li>
+                                <p>27 - 30/10: <span>Thời gian mua hàng trực tiếp</span></p>
+                            </li>
+                            <li>
+                                <p>14h00 - 30/10: <span>Livestream quay số trúng thưởng, công bố kết quả và trao quà liền tay</span></p>
+                            </li>
+                            <li>
+                                <h3>LƯU Ý:</h3>
+                                <span>- Chúng tôi sẽ giữ hàng và chờ bạn hoàn thành thủ tục mua sản phẩm đến hết ngày 28/10</span><br><br>
+                                <span>- Tất cả sản phẩm đặt trước sẽ mở bán trực tiếp cho khách hàng tại sự kiện vào ngày 29/10</span><br><br>
+                                <span>- Bạn có thể thanh toán online trước hoặc trong sự kiện, thông tin thanh toán online liên hệ HOTLINE +84339111188</span><br><br>
+                                <span>- Khi bạn trúng giải nhưng không có mặt tại sự kiện, chúng tôi sẽ liên hệ qua số điện thoại để gửi giải thưởng</span><br><br>
+                                <span>MTGROUP chân thành cảm ơn bạn đã tham gia cùng chúng tôi!</span>
+                            </li>
+                        </ul>
+                    </div>
+                   
+            </div>
+            <button style="padding: 16px 80px;
+            border-radius: 5px;
+            color: #fff;
+            background-color: var(--primary);
+            display: block;
+            text-align: center;
+            margin: 25px auto;" id="back-rules">Back</button>
+            <div class="rules-footer">
+                <div class="rules-footer-image">
+                    <img class="img1" src="/share/image/footer-1.png" alt="Ảnh Heading">
+                    <img class="img2"  src="/share/image/footer-1.png" alt="Ảnh Heading">
+                    <img class="img3"  src="/share/image/footer-1.png" alt="Ảnh Heading">
+                </div>
+            </div>
+           
+        </section>
+     <!-- FORM THE LE CHUONG TRINH -->
+            <!-- Popup Form -->
+    <div class="modal-form" id="modal-form">
+        <div class="modal-bg-form">
+        </div>
+        <div class="modal-container modal-content">
+          <div class="modal-rows">
+            <section class="box-main-form" id="box-main-form">
+              <div class="bg-img">
+                <img src="share/image/heading-1.png" alt="Ảnh Nền">
+              </div>
+              <header class="header-form">
+                <div class="txt-left">
+                
+                </div>
+                <div class="txt-center">
+                  <img src="share/image/aozoomLogo.png" alt="Logo Aozoom">
+                </div>
+                <button id="closeBtn" type="button" class="txt-right">
+                  <span class="fas fa-times"></span>
+                </button>
+              </header>
+              <form method="POST" id="form-contact" action="" novalidate="novalidate" >
+                  <div class="all-group">
+      
+                    <div class="form-group">
+                      <input id="fullname" type="text" name="fullname" class="form-control" placeholder="Nhập họ và tên">
+                     
+                    </div>
+      
+                    <div class="form-group">
+                      <input id="tel" type="text" name="tel" class="form-control" placeholder="Nhập số điện thoại">
+                     
+                    </div>
+      
+                    <select name="data[location]" class="select-az form-select">
+                        <option value="">Dòng xe</option>
+                        <option value="Phú Thọ">Sedan</option>
+                        <option value="Hà Nam">Hatchback</option>
+                        <option value="Lạng Sơn">SUV</option>
+                        <option value="Lào Cai">Crossover - CUV</option>
+                        <option value="Hà Giang">MPV</option>
+                        <option value="Vĩnh Phúc">Coupe</option>
+                        <option value="Thái Bình">Convertible</option>
+                        <option value="Quảng Ninh">Pickup</option>
+                        <option value="Khác">Limousine</option>
+                        <option value="Khác">Khác</option>
+                      </select><br>
+      
+                    <div class="form-group">
+                        <input id="text" type="text" name="text" class="form-control" placeholder="Nhập biển số xe">
+                       
+                      </div>
+                    <button id="successBtn"class="btn-send btn-submit submit btn-contact">ĐĂNG KÝ </button>
+      
+                  </div>
+              </form>
+              <footer class="footer-form">
+                <img class="img1" src="share/image/footer-dk.png" alt="Footer Image">
+                <img class="img2" src="share/image/footer-dk.png" alt="Footer Image">
+              </footer>
+            </section> 
+          </div>
+        </div>
+      </div>
+<!-- Form thanh cong -->
+      <div class="modal-form" id="success">
+        <div class="modal-bg-form">
+        </div>
+        <div class="modal-container modal-content">
+          <div class="modal-rows">
+            <section class="box-main-form" id="box-main-form">
+              <div class="bg-img">
+                <img src="share/image/heading-1.png" alt="Ảnh Nền">
+              </div>
+              <header class="header-form">
+                <div class="txt-left">
+                
+                </div>
+                <div class="txt-center">
+                  <img src="share/image/aozoomLogo.png" alt="Logo Aozoom">
+                </div>
+                <button id="closeBtn" type="button" class="txt-right">
+                  <span class="fas fa-times"></span>
+                </button>
+              </header>
+              <div class="success">
+                <p>Chúc mừng <span>Trần Tấn Pảo</span>
+                    đã đăng ký thành công</p>
+
+                <ul>
+                    <li>
+                        <p>Mã số dự thưởng của bạn là <span>MTG-12345</span></p>
+                    </li> 
+                    <li>
+                        <p>Số điện thoại: <span>0123456789</span></p>
+                    </li>
+                    <li>
+                        <p>Dòng xe: <span>Khác</span></p>
+                    </li>
+                    <li>
+                        <p>Biển số: <span>59F-T1 12345</span></p>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="share/image/qr.png" alt="QR">
+                        </div>
+                    </li>
+                </ul>
+                <div class="download">
+                    <a class="download-img">
+                        <img src="share/image/download.png" alt="download" style=" width: 32px;
+                        height: 32px;">
+                    </a>
+                </div>
+              </div>
+              <footer class="footer-form">
+                <img class="img1" src="share/image/footer-dk.png" alt="Footer Image">
+                <img class="img2" src="share/image/footer-dk.png" alt="Footer Image">
+              </footer>
+            </section> 
+          </div>
+        </div>
+      </div>
+      <!-- Popup Form -->
+    <!-- Thong So Ky Thuat -->
+    <section class="rules" id="thongso">
+        <div class="rules-heading">
+            <div class="rules-heading-image">
+                <img class="img1" src="/share/image/heading-1.png" alt="Ảnh Heading">
+                <img class="img2"  src="/share/image/heading-1.png" alt="Ảnh Heading">
+            </div>                
+        </div>
+        <div class="rules-container">
+               
+                <div class="rules-price">
+                    <h2>thông số kỹ thuật</h2>
+                    <p>Giá Đại lý 15.800.000 VND</p>
+                    <span>Giá niêm yết 28.000.000 VND</span>
+                </div>
+    
+               <div class="table">
+                <table>
+                    <tr>
+                      <th>PHOENIX DOUBLE LASERS ( BỘ MTAZ )	</th>
+                    </tr>
+                  </table>
+    
+    
+                <table>
+                    <tr>
+                      <td>Phân loại BI LASER</td>
+                      <td>BI LASER</td>
+                    </tr>
+                    <tr>
+                      <td>Công suất 55W - 85W</td>
+                      <td>55W - 85W</td>
+                    </tr>
+                    <tr>
+                      <td>Nhiệt màu 5200K</td>
+                      <td>5200K</td>
+                    </tr>
+                    <tr>
+                      <td>Kích thước 3.0 inch</td>
+                      <td>3.0 inch</td>
+                    </tr>
+                    <tr>
+                      <td>Chip LED/LASER "LED: 6 - 3</td>
+                      <td>6 - 3</td>
+                    </tr>
+                    <tr>
+                      <td>Diode laser: 2"</td>
+                      <td>2"</td>
+                    </tr>
+                    <tr>
+                        <td>Chỉ số chống nước IP65</td>
+                        <td>IP65</td>
+                      </tr>
+                      <tr>
+                        <td>Điệp áp 9 - 16V</td>
+                        <td>9 - 16V</td>
+                      </tr>
+                      <tr>
+                        <td>Nhiệt độ -40°C ~ +105°C</td>
+                        <td>-40°C ~ +105°C</td>
+                      </tr>
+                      <tr>
+                        <td>Tuổi thọ Trên 30.000 giờ</td>
+                        <td>Trên 30.000 giờ</td>
+                      </tr>
+                      <tr>
+                        <td>Bảo hành 3 năm</td>
+                        <td>3 năm</td>
+                      </tr>
+                  </table>
+               </div>
+    
+    
+                <div class="rules-product">
+                    <div class="rules-product-bg">
+                        <img src="share/image/new-product-bg.png" alt="Anh Nen">
+                    </div>
+                    <div class="rules-product-img">
+                        <img src="share/image/product-img-01.png" alt="San Pham">
+                    </div>
+                </div>
+              
+             
+        </div>
+        <button style="padding: 16px 80px;
+        border-radius: 5px;
+        color: #fff;
+        background-color: var(--primary);
+        display: block;
+        text-align: center;
+        margin: 25px auto;" id="back">Back</button>
+        <div class="rules-footer">
+            <div class="rules-footer-image">
+                <img class="img1" src="/share/image/footer-1.png" alt="Ảnh Heading">
+                <img class="img2"  src="/share/image/footer-1.png" alt="Ảnh Heading">
+                <img class="img3"  src="/share/image/footer-1.png" alt="Ảnh Heading">
+            </div>
+        </div>
+    </section>
     <!-- Javascript -->
-    <script src="/public/js/script.js">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/public/js/script.js"></script>  
+    <script src="/public/js/validate.js"></script>  
     <script>
         let slideIndex = 0;
         showSlides();

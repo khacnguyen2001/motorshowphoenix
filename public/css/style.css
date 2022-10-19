@@ -642,8 +642,25 @@
   }
   
 /* FORM THE LE CHUONG TRINH */
+.rules {
+    display: none;
+    width: 100%;
+    overflow-y: scroll;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 999;
+    position: fixed;
+    transform: scale(1);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+}
+
 .rules .rules-container {
-    max-width: 1440px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -655,7 +672,6 @@
 .rules .rules-heading .rules-heading-image .img2 {
     transform: rotateY(180deg);
     margin-left: -1px;
-    margin-top: 0.5px;
 }
 
 .rules .rules-heading .rules-heading-image .img1 {
@@ -769,9 +785,6 @@
     width: calc(100% / 3);
 }
 
-.rules .rules-footer {
-    padding-bottom: 40px;
-}
 
 .rules-footer .rules-footer-image .img1,
 .rules-footer .rules-footer-image .img3 {
@@ -780,7 +793,48 @@
 
 .rules-footer .rules-footer-image .img2 {
     margin: 0 -3px;
-    padding-top: 0.5px;
 }
 /* FORM THE LE CHUONG TRINH */
+/* FORM THANH CONG */
+.success .img {
+    width: 164px;
+    height: 164px;
+    margin: 40px auto;
+}
+
+.success {
+    padding-top: 100px;
+}
+
+.success p,.success ul li, .success span {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--white);
+}
+
+.success ul li {
+    margin-bottom: 10px;
+}
+
+.success span {
+    color: var(--primary);
+}
+
+.success > p {
+    margin-bottom: 18px;
+}
+
+.download {
+    position: absolute;
+    top: 80%;
+    left: 85%
+}
+
+.download-img {
+    width: 32px;
+    height: 32px;
+}
+
 
