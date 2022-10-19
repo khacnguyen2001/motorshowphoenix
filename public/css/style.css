@@ -14,6 +14,7 @@
 }
 
 .main-product .main-product-phoenix .main-product-title h2 {
+    font-family: "UTM", sans-serif;
     color: var(--primary);
     font-size: 32px;
     line-height: 42px;
@@ -215,6 +216,7 @@
     font-weight: 700;
     color: var(--primary);
     letter-spacing: 7px;
+    font-family: "UTM", sans-serif;
 }
 
 .reward .reward-content .reward-content-title .reward-content-title-desc li {
@@ -258,6 +260,7 @@
 }
 
 .new-product h2 {
+    font-family: "UTM", sans-serif;
     font-size: 32px;
     color: var(--primary);
     text-align: center;
@@ -687,6 +690,7 @@
 }
 
 .rules .rules-title h2 {
+    font-family: "UTM", sans-serif;
     color: var(--primary);
     font-size: 32px;
     letter-spacing: 7px;

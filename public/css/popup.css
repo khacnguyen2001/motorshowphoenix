@@ -97,6 +97,8 @@
 
   .form-select {
     padding: 4% 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
     color: var(--white);
     width: 100%;
     font-size: 16px;
@@ -485,6 +487,7 @@
 }
 
 .rules-price h2 {
+    font-family: "UTM", sans-serif;
     font-size: 32px;
     letter-spacing: 3px;
     color: var(--primary);

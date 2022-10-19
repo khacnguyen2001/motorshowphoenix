@@ -40,33 +40,56 @@ $(document).ready(function () {
   $("#Mybtn-click").click(function () {
     $("#modal-form").show();
   });
-
+// DONG FORM
   $("#closeBtn").click(function () {
     $("#modal-form").hide();
   });
-
-  $("#back").click(function () {
-    $("#thongso").hide();
+// DONG THONG SO 
+  $(document).on("click","#back",function() {
+    $('#thongso').hide();
   });
-
+// DONG THE LE
   $("#back-rules").click(function () {
     $("#rules").hide();
   });
-
+// SHOW FORM THANH CONG
   $(document).on("click","#successBtn",function() {
     $('#success').show();
   });
 
-
+// HIEN THONG SO
   $(document).on("click","#thongsoBtn",function() {
     $('#thongso').show();
   });
-
+// HIEN THE LE
   $("#thele").click(function () {
     $("#rules").show();
   });
+// SHOW THONG SO MOBILE
+  $(document).on("click","#clickBtn1",function() {
+    $('#thongso1').toggle();
+    $('.clickI').toggleClass('rotate');
+  });
 
+  $(document).on("click","#clickBtn2",function() {
+    $('#thongso2').toggle();
+    $('.clickI').toggleClass('rotate');
+  });
 
+  $(document).on("click","#clickBtn3",function() {
+    $('#thongso3').toggle();
+    $('.clickI').toggleClass('rotate');
+  });
+
+  $(document).on("click","#clickBtn4",function() {
+    $('#thongso4').toggle();
+    $('.clickI').toggleClass('rotate');
+  });
+
+  $(document).on("click","#clickBtn5",function() {
+    $('#thongso5').toggle();
+    $('.clickI').toggleClass('rotate');
+  });
 });
 // CLOSE FORM
 

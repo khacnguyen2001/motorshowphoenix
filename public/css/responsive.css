@@ -64,7 +64,7 @@
         height: 16px;
     }
 
-    .content p {
+    .info-content p {
         text-align: left;
         font-size: 12px;
         letter-spacing: 2px;
@@ -350,8 +350,12 @@
         margin-bottom: 16px !important;
     }
 
+    .rules .rules-time span {
+        letter-spacing: 1px !important;
+    }
+
     .rules .rules-time ul li > span {
-        word-spacing:  2px !important;
+        word-spacing:  0 !important;
     }
 
     .rules .rules-time h2 {
@@ -384,6 +388,37 @@
         height: 32px !important;
         font-size: 16px !important;
     }
+
+    .position-r {
+        position: inherit !important;
+    }
+
+    .form-select {
+        padding: 2% 0 !important;
+        width: 95% !important;
+    }
+
+    .rules .rules-container {
+        max-width: 90% !important;
+    }
+
+    .rotate {
+        transform: rotate(180deg);
+    }
+
+    .rules-price h2 {
+        font-size: 22px !important;
+    }
+
+    td, th {
+        font-size: 14px !important;
+    }
+
+    .rules-price p, .rules-price span {
+        font-size: 18px !important;
+        letter-spacing: 2px !important;
+    }
+    
 }    
 /* Giao dien may tinh bang */
 @media (min-width: 480px) and (max-width: 1024px) {
@@ -405,7 +440,7 @@
         line-height: 88px;
    }
 
-   .content p {
+   .info-content p {
         text-align: left;
         font-size: 18px;
         letter-spacing: 1px;
