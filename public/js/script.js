@@ -46,7 +46,11 @@ $(document).ready(function () {
   });
 // DONG THONG SO 
   $(document).on("click","#back",function() {
-    $('#thongso').hide();
+    $('#thongso1').hide();
+    $('#thongso2').hide();
+    $('#thongso3').hide();
+    $('#thongso4').hide();
+    $('#thongso5').hide();
   });
 // DONG THE LE
   $("#back-rules").click(function () {
@@ -58,9 +62,9 @@ $(document).ready(function () {
   });
 
 // HIEN THONG SO
-  $(document).on("click","#thongsoBtn",function() {
-    $('#thongso').show();
-  });
+  // $(document).on("click","#thongsoBtn",function() {
+  //   $('#thongso').show();
+  // });
 // HIEN THE LE
   $("#thele").click(function () {
     $("#rules").show();
@@ -89,6 +93,27 @@ $(document).ready(function () {
   $(document).on("click","#clickBtn5",function() {
     $('#thongso5').toggle();
     $('.clickI').toggleClass('rotate');
+  });
+
+  // PC
+  $(document).on("click","#thongsoBtn1",function() {
+    $('#thongso1').toggle();
+  });
+
+  $(document).on("click","#thongsoBtn2",function() {
+    $('#thongso2').toggle();
+  });
+
+  $(document).on("click","#thongsoBtn3",function() {
+    $('#thongso3').toggle();
+  });
+
+  $(document).on("click","#thongsoBtn4",function() {
+    $('#thongso4').toggle();
+  });
+
+  $(document).on("click","#thongsoBtn5",function() {
+    $('#thongso5').toggle();
   });
 });
 // CLOSE FORM
