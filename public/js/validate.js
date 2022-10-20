@@ -39,13 +39,13 @@ $(document).ready(function () {
                 },
                 number_car : {
                     required: "Vui lòng nhập biển số xe",
-                    maxlength: "Vui lòng nhập không quá 8 số",
+                    maxlength: "Vui lòng nhập không quá 8 ký tự",
                 }
             }, submitHandler: function (form) {
                 $.ajax({
                     dataType: "json",
                     type: "POST",
-                    url: "",
+                    url: "modules/add_data_customers.php",
                     data: $(form).serializeArray(),
                     success: function (data) {
                         console.log(data);
