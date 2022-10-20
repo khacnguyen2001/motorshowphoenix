@@ -1,41 +1,45 @@
-
 $(document).ready(function () {
-    var form = $(".form-az");
-    for (let i = 0; i < form.length; i++) {
-        const element = form[i];
         $.validator.addMethod("phoneVN", function (value, element) {
             return this.optional(element) || /((09|03|07|08|05)+([0-9]{8})\b)/g.test(value)
         }, "Vui lòng nhập đúng số điện thoại");
-        $(element).validate({
+        $('#form-contact').validate({
             rules: {
                 fullname: {
                     required: true,
                     maxlength: 30
                 },
-                'data[phone]': {
+                phone: {
                     required: true,
                     number: true,
                     nowhitespace: true,
                     maxlength: 10,
                     phoneVN: true
                 },
-                'data[location]': {
+                models: {
                     required: true,
+                },
+                number_car: {
+                    required: true,
+                    maxlength: 8
                 }
             },
             messages: {
-                'data[name]': {
+                fullname: {
                     required: "Vui lòng nhập họ và tên",
                     maxlength: "Vui lòng nhập không quá 30 ký tự"
                 },
-                'data[phone]': {
+                phone: {
                     required: "Vui lòng nhập số điện thoại",
                     maxlength: "Vui lòng nhập không quá 10 số",
                     nowhitespace: "Vui lòng không nhập khoảng trắng",
                     number: "Vui lòng không nhập số"
                 },
-                'data[location]': {
+                models : {
                     required: "Vui lòng chọn dòng xe"
+                },
+                number_car : {
+                    required: "Vui lòng nhập biển số xe",
+                    maxlength: "Vui lòng nhập không quá 8 số",
                 }
             }, submitHandler: function (form) {
                 $.ajax({
@@ -49,7 +53,5 @@ $(document).ready(function () {
                 });
             },
         });
-    }
-    
 });
 

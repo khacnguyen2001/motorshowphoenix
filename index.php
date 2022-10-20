@@ -1015,7 +1015,7 @@
                   <span class="fas fa-times"></span>
                 </button>
               </header>
-              <form method="POST" id="form-contact" action="" novalidate="novalidate" >
+              <form id="form-contact" >
                   <div class="all-group">
       
                     <div class="form-group">
@@ -1024,11 +1024,11 @@
                     </div>
       
                     <div class="form-group">
-                      <input id="tel" type="text" name="tel" class="form-control" placeholder="Nhập số điện thoại">
+                      <input id="tel" type="text" name="phone" class="form-control" placeholder="Nhập số điện thoại">
                      
                     </div>
       
-                    <select name="data[location]" class="select-az form-select">
+                    <select title="Dòng xe" name="models" class="select-az form-select">
                         <option value="">Dòng xe</option>
                         <option value="Phú Thọ">Sedan</option>
                         <option value="Hà Nam">Hatchback</option>
@@ -1043,10 +1043,10 @@
                       </select><br>
       
                     <div class="form-group">
-                        <input id="text" type="text" name="text" class="form-control" placeholder="Nhập biển số xe">
+                        <input id="text" type="text" name="number_car" class="form-control" placeholder="Nhập biển số xe">
                        
                       </div>
-                    <button id="successBtn"class="btn-send btn-submit submit btn-contact">ĐĂNG KÝ </button>
+                    <button type="submit" class="btn-send btn-submit submit btn-contact">ĐĂNG KÝ </button>
       
                   </div>
               </form>

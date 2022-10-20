@@ -56,10 +56,6 @@ $(document).ready(function () {
   $("#back-rules").click(function () {
     $("#rules").hide();
   });
-// SHOW FORM THANH CONG
-  $(document).on("click","#successBtn",function() {
-    $('#success').show();
-  });
 
 // HIEN THONG SO
   // $(document).on("click","#thongsoBtn",function() {
