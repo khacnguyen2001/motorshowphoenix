@@ -23,21 +23,14 @@ if($_POST['fullname'] && $_POST['phone'] && $_POST['models'] && $_POST['number_c
         $sql = "INSERT INTO `customers` (`code`,`fullname`,`phone`,`models`,`number_car`,`qr_code`) VALUES('$code','$fullname','$models','$number_car','$qr_code')";
         $result = mysqli_query($conn,$sql);
         echo json_encode(array(
-            'status' => 1,
-            'message' => 'Thêm khách hàng thành công'
+            'status' => 1
             ));
         exit();
     }else{
-        $sql = "UPDATE `customers` SET `code` = '$code', `description` = '$description',
-        `keyword` = '$keyword',`link_social` = '$link_social', `title_social` = '$title_social', 
-        `description_social` = '$description_social',`keyword_social` = '$keyword_social'
-        WHERE `id_pages` = $id_pages";
-
+        $sql = "UPDATE `customers` SET `code` = '$code', `fullname` = '$fullname', `phone` = '$phone',`models` = '$models', `number_car` = '$number_car', `qr_code` = '$qr_code' WHERE `phone` = $phone";
         $result = mysqli_query($conn,$sql);
-
         echo json_encode(array(
-            'status' => 1,
-            'message' => 'Thêm khách hàng thành công'
+            'status' => 1
             ));
         exit();
     }
