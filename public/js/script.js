@@ -111,8 +111,40 @@ $(document).ready(function () {
   $(document).on("click","#thongsoBtn5",function() {
     $('#thongso5').toggle();
   });
+
+  // CLICK SHOW CAC GOC CUA PHUONG HOANG LUA
+  $(document).on("click",".clickShowImage1",function() {
+    $('.imageShow1').show();
+    $('.imageShow2').hide();
+    $('.imageShow3').hide();
+    $('.imageShow4').hide();
+    $('.imageShow').hide();
+  });
+  $(document).on("click",".clickShowImage2",function() {
+    $('.imageShow2').show();
+    $('.imageShow1').hide();
+    $('.imageShow3').hide();
+    $('.imageShow4').hide();
+    $('.imageShow').hide();
+  });
+  $(document).on("click",".clickShowImage3",function() {
+    $('.imageShow3').show();
+    $('.imageShow1').hide();
+    $('.imageShow2').hide();
+    $('.imageShow').hide();
+    $('.imageShow4').hide();
+  });
+  $(document).on("click",".clickShowImage4",function() {
+    $('.imageShow4').show();
+    $('.imageShow2').hide();
+    $('.imageShow3').hide();
+    $('.imageShow').hide();
+    $('.imageShow1').hide();
+  });
 });
 // CLOSE FORM
+
+
 
 
 
