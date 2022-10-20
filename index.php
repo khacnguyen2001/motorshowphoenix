@@ -240,7 +240,7 @@
             background-color: var(--primary);
             display: block;
             text-align: center;
-            margin: 25px auto;" id="back" class="d-none-mb">Back</button>
+            margin: 25px auto;text-transform: uppercase;" id="back" class="d-none-mb">Back</button>
             <div class="rules-footer">
                 <div class="rules-footer-image">
                     <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
@@ -449,7 +449,7 @@
             background-color: var(--primary);
             display: block;
             text-align: center;
-            margin: 25px auto;" id="back" class="d-none-mb">Back</button>
+            margin: 25px auto;text-transform: uppercase;" id="back" class="d-none-mb">Back</button>
             <div class="rules-footer">
                 <div class="rules-footer-image">
                     <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
@@ -576,7 +576,7 @@
             background-color: var(--primary);
             display: block;
             text-align: center;
-            margin: 25px auto;" id="back" class="d-none-mb">Back</button>
+            margin: 25px auto;text-transform: uppercase;" id="back" class="d-none-mb">Back</button>
             <div class="rules-footer">
                 <div class="rules-footer-image">
                     <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
@@ -701,7 +701,7 @@
             background-color: var(--primary);
             display: block;
             text-align: center;
-            margin: 25px auto;" id="back" class="d-none-mb">Back</button>
+            margin: 25px auto;text-transform: uppercase;" id="back" class="d-none-mb">Back</button>
             <div class="rules-footer">
                 <div class="rules-footer-image">
                     <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
@@ -838,7 +838,7 @@
         background-color: var(--primary);
         display: block;
         text-align: center;
-        margin: 25px auto;" id="back" class="d-none-mb">Back</button>
+        margin: 25px auto;text-transform: uppercase;" id="back" class="d-none-mb">Back</button>
         <div class="rules-footer">
             <div class="rules-footer-image">
                 <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
@@ -983,7 +983,7 @@
             background-color: var(--primary);
             display: block;
             text-align: center;
-            margin: 25px auto;" id="back-rules">Back</button>
+            margin: 25px auto;text-transform: uppercase;" id="back-rules">Back</button>
             <div class="rules-footer">
                 <div class="rules-footer-image">
                     <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">

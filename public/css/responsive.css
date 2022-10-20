@@ -315,7 +315,7 @@
 
     .rules .rules-footer {
         padding-bottom: 0 !important;
-        padding-top: 20px;
+        padding-top: 70px;
     }
 
     table {
@@ -391,6 +391,9 @@
 
     .position-r {
         position: inherit !important;
+        overflow-y: hidden !important;
+        padding-bottom: 28px !important;
+        height: auto !important;
     }
 
     .form-select {

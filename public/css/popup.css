@@ -150,7 +150,7 @@
   
   .box-main-form .header-form .txt-right {
     background: transparent;
-    color: var(--yellow);
+    color: var(--while);
     margin: 12px;
   }
   
@@ -359,7 +359,7 @@
     width: calc(100% - 16px);
     height: 54px;
     color: var(--white);
-    font-size: 30px;
+    font-size: 18px;
     text-align: center;
     background-color: var(--primary);
     margin: 12px 8px;
