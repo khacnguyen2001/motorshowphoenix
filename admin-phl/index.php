@@ -121,7 +121,7 @@
                         if (res.status == 1) {
                             window.location = res.link;
                         } else {
-                            $('#error').text(response.message);
+                            $('#error').text(res.message);
                         }
                     },
                 });
