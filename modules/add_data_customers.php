@@ -11,7 +11,7 @@ if($_POST['fullname'] && $_POST['phone'] && $_POST['models'] && $_POST['number_c
     $number_car = mysqli_real_escape_string($conn, $_POST['number_car']);
     $code = 'MTG-'.substr($number_car, -5);
     
-    $url = 'uploads/images/'.$code.'-'.time().'.png';
+    $url = 'uploads/qr/'.$code.'-'.time().'.png';
     $path = $base_url.$url;
 	$name =  $path;
 	QRcode::png($code,$name,'H',5,5);
