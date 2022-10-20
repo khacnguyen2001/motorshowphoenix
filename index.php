@@ -1084,30 +1084,30 @@
                 </button>
               </header>
               <div class="success">
-                <p>Chúc mừng <span>Trần Tấn Pảo</span>
+                <p>Chúc mừng <span class="fullname">Trần Tấn Pảo</span>
                     đã đăng ký thành công</p>
 
                 <ul>
                     <li>
-                        <p>Mã số dự thưởng của bạn là <span>MTG-12345</span></p>
+                        <p>Mã số dự thưởng của bạn là <span  class="code">MTG-12345</span></p>
                     </li> 
                     <li>
-                        <p>Số điện thoại: <span>0123456789</span></p>
+                        <p>Số điện thoại: <span class="phone">0123456789</span></p>
                     </li>
                     <li>
-                        <p>Dòng xe: <span>Khác</span></p>
+                        <p>Dòng xe: <span class="models">Khác</span></p>
                     </li>
                     <li>
-                        <p>Biển số: <span>59F-T1 12345</span></p>
+                        <p>Biển số: <span class="number_car">59F-T1 12345</span></p>
                     </li>
                     <li>
                         <div class="img">
-                            <img src="share/image/qr.png" alt="QR">
+                            <img class="qr_code" src="share/image/qr.png" alt="QR">
                         </div>
                     </li>
                 </ul>
                 <div class="download">
-                    <a class="download-img">
+                    <a href="" class="download-img" download>
                         <img src="share/image/download.png" alt="download" style=" width: 32px;
                         height: 32px;">
                     </a>
