@@ -1,7 +1,12 @@
+<?php
+  require_once './config/config.php';
+  require_once './config/dbhelper.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- <base href="http://localhost/motorshowphoenix/"> -->
+    <base href="<?php echo $base_url?>">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +16,11 @@
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/popup.css">
     <link rel="stylesheet" href="public/css/responsive.css">
-    <link rel="icon" href="https://aozoom.com.vn/wp-content/uploads/2021/07/cropped-cropped-aozoom-logo-32x32.png" sizes="32x32" />
-    <link
-      href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css"
-      rel="stylesheet"
-    />
+    <link rel="icon" href="https://aozoom.com.vn/wp-content/uploads/2021/07/cropped-cropped-aozoom-logo-32x32.png"
+        sizes="32x32" />
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet" />
 </head>
+
 <body>
     <!-- Video Banner Start -->
     <section class="video-banner">
@@ -61,20 +65,30 @@
                             </div>
 
                             <div class="phoenix-show-image">
-                                <img class="imageShow" src="share/image/product-img-01.png" alt="Bi Laser Phoenix Light">
-                                <img class="imageShow1 d-none-ip d-none-mb" src="share/image/product-img-01.png" alt="Bi Laser Phoenix Light">
-                                <img class="imageShow2  d-none-ip d-none-mb" src="share/image/den-phoenix.png" alt="Bi Laser Phoenix Light">
-                                <img class="imageShow3  d-none-ip d-none-mb" src="share/image/airpod.png" alt="Bi Laser Phoenix Light">
-                                <img class="imageShow4  d-none-ip d-none-mb" src="share/image/den-phoenix.png" alt="Bi Laser Phoenix Light">
+                                <img class="imageShow" src="share/image/product-img-01.png"
+                                    alt="Bi Laser Phoenix Light">
+                                <img class="imageShow1 d-none-ip d-none-mb" src="share/image/product-img-01.png"
+                                    alt="Bi Laser Phoenix Light">
+                                <img class="imageShow2  d-none-ip d-none-mb" src="share/image/den-phoenix.png"
+                                    alt="Bi Laser Phoenix Light">
+                                <img class="imageShow3  d-none-ip d-none-mb" src="share/image/airpod.png"
+                                    alt="Bi Laser Phoenix Light">
+                                <img class="imageShow4  d-none-ip d-none-mb" src="share/image/den-phoenix.png"
+                                    alt="Bi Laser Phoenix Light">
                             </div>
                         </div>
                     </div>
 
                     <div class="main-product-phoenix-content">
                         <ul>
-                            <li>BI LASER PHOENIX mang nguồn sáng vươn tầm đầy mạnh mẽ, đột phá mọi quy luật khắc nghiệt nhất của tự nhiên để chứng minh bản lĩnh vượt trội của mình.</li>
-                            <li>Sự kết hợp tuyệt vời giữa Double LASERS và hệ thống tản nhiệt tối tân giúp PHOENIX AOZOOM sở hữu ánh sáng siêu pha bứt phá tầm nhìn cùng khả năng vận hành cực kỳ tối ưu.</li>
-                            <li>Là đại diện cho sức mạnh, sự trường tồn và thành công, PHOENIX với sự đặt để khéo léo và tinh tế trên từng chi tiết chính là siêu phẩm tăng sáng đích thực, nâng tầm giá trị, soi sáng trên từng dặm hành trình bạn đi.</li>
+                            <li>BI LASER PHOENIX mang nguồn sáng vươn tầm đầy mạnh mẽ, đột phá mọi quy luật khắc nghiệt
+                                nhất của tự nhiên để chứng minh bản lĩnh vượt trội của mình.</li>
+                            <li>Sự kết hợp tuyệt vời giữa Double LASERS và hệ thống tản nhiệt tối tân giúp PHOENIX
+                                AOZOOM sở hữu ánh sáng siêu pha bứt phá tầm nhìn cùng khả năng vận hành cực kỳ tối ưu.
+                            </li>
+                            <li>Là đại diện cho sức mạnh, sự trường tồn và thành công, PHOENIX với sự đặt để khéo léo và
+                                tinh tế trên từng chi tiết chính là siêu phẩm tăng sáng đích thực, nâng tầm giá trị, soi
+                                sáng trên từng dặm hành trình bạn đi.</li>
                         </ul>
 
                         <div class="main-product-phoenix-price">
@@ -86,43 +100,43 @@
                 </div>
             </div>
         </div>
-          <!-- Slideshow Mobile -->
-          <div class="slideshow-container d-none">
+        <!-- Slideshow Mobile -->
+        <div class="slideshow-container d-none">
 
             <div class="mySlides fade">
-              <div class="numbertext">1 / 3</div>
-              <div class="number-img">
-                <img src="share/image/product-img-01.png">
-              </div>
-              <div class="text">
-                <img src="share/image/bg-product.png" alt="Slideshow">
-              </div>
+                <div class="numbertext">1 / 3</div>
+                <div class="number-img">
+                    <img src="share/image/product-img-01.png">
+                </div>
+                <div class="text">
+                    <img src="share/image/bg-product.png" alt="Slideshow">
+                </div>
             </div>
-            
+
             <div class="mySlides fade">
-              <div class="numbertext">2 / 3</div>
-              <div class="number-img">
-                <img src="share/image/product-img-01.png">
-              </div>
-              <div class="text"> <img src="share/image/bg-product.png" alt="Slideshow"></div>
+                <div class="numbertext">2 / 3</div>
+                <div class="number-img">
+                    <img src="share/image/product-img-01.png">
+                </div>
+                <div class="text"> <img src="share/image/bg-product.png" alt="Slideshow"></div>
             </div>
-            
+
             <div class="mySlides fade">
-              <div class="numbertext">3 / 3</div>
-              <div class="number-img">
-                <img src="share/image/product-img-01.png">
-              </div>
-              <div class="text"> <img src="share/image/bg-product.png" alt="Slideshow"></div>
+                <div class="numbertext">3 / 3</div>
+                <div class="number-img">
+                    <img src="share/image/product-img-01.png">
+                </div>
+                <div class="text"> <img src="share/image/bg-product.png" alt="Slideshow"></div>
             </div>
-            
-            </div>
-            <br>
-            
-            <div style="text-align:center">
-              <span class="dot"></span> 
-              <span class="dot"></span> 
-              <span class="dot"></span> 
-            </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
         <!-- Slideshow Mobile -->
         <div class="container d-none">
             <div class="phoenix-show-image-logo">
@@ -134,126 +148,127 @@
                 </div>
             </div>
 
-           <div class="info">
-            <div class="info-content">
-                <p>Sự kết hợp tuyệt vời giữa Double Laser và hệ thống tản nhiệt tối tân giúp PHOENIX LIGHT sở hữu ánh sáng siêu pha bứt phá tầm nhìn cùng khả năng vận hành cực kỳ tối ưu.</p>
-            </div>
+            <div class="info">
+                <div class="info-content">
+                    <p>Sự kết hợp tuyệt vời giữa Double Laser và hệ thống tản nhiệt tối tân giúp PHOENIX LIGHT sở hữu
+                        ánh sáng siêu pha bứt phá tầm nhìn cùng khả năng vận hành cực kỳ tối ưu.</p>
+                </div>
 
-            <div class="main-product-phoenix-price">
-                <span>28.000.000 VNĐ</span>
-            </div>
+                <div class="main-product-phoenix-price">
+                    <span>28.000.000 VNĐ</span>
+                </div>
 
-            <div class="click d-none d-none-ip">
-                <p>Thông số kỹ thuật</p>
-                <i class="fal fa-chevron-down clickI" id="clickBtn1"></i>
+                <div class="click d-none d-none-ip">
+                    <p>Thông số kỹ thuật</p>
+                    <i class="fal fa-chevron-down clickI" id="clickBtn1"></i>
+                </div>
+                <button id="thongsoBtn" class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
             </div>
-            <button id="thongsoBtn" class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
-           </div>
         </div>
     </section>
-        <!-- Thong So Ky Thuat -->
-        <section class="rules position-r" id="thongso1">
-            <div class="rules-heading">
-                <div class="rules-heading-image">
-                    <img class="img1" src="share/image/heading-1.png" alt="Ảnh Heading">
-                    <img class="img2"  src="share/image/heading-1.png" alt="Ảnh Heading">
-                </div>                
+    <!-- Thong So Ky Thuat -->
+    <section class="rules position-r" id="thongso1">
+        <div class="rules-heading">
+            <div class="rules-heading-image">
+                <img class="img1" src="share/image/heading-1.png" alt="Ảnh Heading">
+                <img class="img2" src="share/image/heading-1.png" alt="Ảnh Heading">
             </div>
-            <div class="rules-container">
-                   
-                    <div class="rules-price">
-                        <h2>thông số kỹ thuật</h2>
-                        <span>Giá niêm yết 28.000.000 VND</span>
-                    </div>
-        
-                   <div class="table">
-                    <table>
-                        <tr>
-                          <th>BI LASER CAO CẤP PHOENIX LIGHT ( BỘ MTAZ )</th>
-                        </tr>
-                      </table>
-        
-        
-                    <table>
-                        <tr>
-                          <td>Phân loại</td>
-                          <td>BI LASER</td>
-                        </tr>
-                        <tr>
-                          <td>Công suất</td>
-                          <td>55W - 85W</td>
-                        </tr>
-                        <tr>
-                          <td>Nhiệt màu</td>
-                          <td>5200K</td>
-                        </tr>
-                        <tr>
-                          <td>Kích thước</td>
-                          <td>3.0 inch</td>
-                        </tr>
-                        <tr>
-                          <td>Chip LED/LASER</td>
-                          <td>6 - 3</td>
-                        </tr>
-                        <tr>
-                          <td>Diode laser/td>
-                          <td>2</td>
-                        </tr>
-                        <tr>
-                            <td>Chỉ số chống nước</td>
-                            <td>IP65</td>
-                          </tr>
-                          <tr>
-                            <td>Điệp áp</td>
-                            <td>9 - 16V</td>
-                          </tr>
-                          <tr>
-                            <td>Nhiệt độ</td>
-                            <td>-40°C ~ +105°C</td>
-                          </tr>
-                          <tr>
-                            <td>Tuổi thọ</td>
-                            <td>Trên 30.000 giờ</td>
-                          </tr>
-                          <tr>
-                            <td>Bảo hành</td>
-                            <td>3 năm</td>
-                          </tr>
-                          <tr>
-                            <td>Khoảng cách chiếu xa</td>
-                            <td>800 - 1500m</td>
-                          </tr>
-                      </table>
-                   </div>
-        
-        
-                    <div class="rules-product">
-                        <div class="rules-product-bg">
-                            <img src="share/image/new-product-bg.png" alt="Anh Nen">
-                        </div>
-                        <div class="rules-product-img">
-                            <img src="share/image/product-img-01.png" alt="San Pham">
-                        </div>
-                    </div>
-                  
-                 
+        </div>
+        <div class="rules-container">
+
+            <div class="rules-price">
+                <h2>thông số kỹ thuật</h2>
+                <span>Giá niêm yết 28.000.000 VND</span>
             </div>
-            <button style="padding: 16px 80px;
+
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>BI LASER CAO CẤP PHOENIX LIGHT ( BỘ MTAZ )</th>
+                    </tr>
+                </table>
+
+
+                <table>
+                    <tr>
+                        <td>Phân loại</td>
+                        <td>BI LASER</td>
+                    </tr>
+                    <tr>
+                        <td>Công suất</td>
+                        <td>55W - 85W</td>
+                    </tr>
+                    <tr>
+                        <td>Nhiệt màu</td>
+                        <td>5200K</td>
+                    </tr>
+                    <tr>
+                        <td>Kích thước</td>
+                        <td>3.0 inch</td>
+                    </tr>
+                    <tr>
+                        <td>Chip LED/LASER</td>
+                        <td>6 - 3</td>
+                    </tr>
+                    <tr>
+                        <td>Diode laser/td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Chỉ số chống nước</td>
+                        <td>IP65</td>
+                    </tr>
+                    <tr>
+                        <td>Điệp áp</td>
+                        <td>9 - 16V</td>
+                    </tr>
+                    <tr>
+                        <td>Nhiệt độ</td>
+                        <td>-40°C ~ +105°C</td>
+                    </tr>
+                    <tr>
+                        <td>Tuổi thọ</td>
+                        <td>Trên 30.000 giờ</td>
+                    </tr>
+                    <tr>
+                        <td>Bảo hành</td>
+                        <td>3 năm</td>
+                    </tr>
+                    <tr>
+                        <td>Khoảng cách chiếu xa</td>
+                        <td>800 - 1500m</td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <div class="rules-product">
+                <div class="rules-product-bg">
+                    <img src="share/image/new-product-bg.png" alt="Anh Nen">
+                </div>
+                <div class="rules-product-img">
+                    <img src="share/image/product-img-01.png" alt="San Pham">
+                </div>
+            </div>
+
+
+        </div>
+        <button style="padding: 16px 80px;
             border-radius: 5px;
             color: #fff;
             background-color: var(--primary);
             display: block;
             text-align: center;
             margin: 25px auto;text-transform: uppercase;" id="back" class="d-none-mb">Back</button>
-            <div class="rules-footer">
-                <div class="rules-footer-image">
-                    <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
-                    <img class="img2"  src="share/image/footer-1.png" alt="Ảnh Heading">
-                    <img class="img3"  src="share/image/footer-1.png" alt="Ảnh Heading">
-                </div>
+        <div class="rules-footer">
+            <div class="rules-footer-image">
+                <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
+                <img class="img2" src="share/image/footer-1.png" alt="Ảnh Heading">
+                <img class="img3" src="share/image/footer-1.png" alt="Ảnh Heading">
             </div>
-        </section>
-        <!-- Thong So Ky Thuat -->
+        </div>
+    </section>
+    <!-- Thong So Ky Thuat -->
 
     <!-- San Pham Chinh: Phuong Hoang Lua Start -->
     <!-- Thời Gian Dem Nguoc Start -->
@@ -261,12 +276,12 @@
         <div class="container">
             <div id="countdown" class="countdown">
                 <ul>
-                  <li><span id="days"></span></li>
-                  <li><span id="hours"></span></li>
-                  <li><span id="minutes"></span></li>
-                  <li><span id="seconds"></span></li>
+                    <li><span id="days"></span></li>
+                    <li><span id="hours"></span></li>
+                    <li><span id="minutes"></span></li>
+                    <li><span id="seconds"></span></li>
                 </ul>
-              </div>
+            </div>
         </div>
     </div>
     <!-- Thời Gian Dem Nguoc End -->
@@ -276,7 +291,7 @@
             <div class="reward-content">
                 <div class="reward-content-title">
                     <div class="reward-content-title-detail">
-                        <p  class="fsz-12">ĐĂNG KÝ VÀ TRÚNG NGAY</p>
+                        <p class="fsz-12">ĐĂNG KÝ VÀ TRÚNG NGAY</p>
                         <h2 class="fsz-16">IPHONE 14 PRO MAX</h2>
                     </div>
                     <ul class="reward-content-title-desc">
@@ -310,21 +325,24 @@
                 </div>
             </div>
             <div class="new-product-text d-none-mb">
-                <p class="fsz-12">PHOENIX LIGHT được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao quý, hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
+                <p class="fsz-12">PHOENIX LIGHT được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao
+                    quý, hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
             </div>
         </div>
 
         <div class="new-product-detail">
             <div class="new-product-detail-bg">
                 <img class="d-none-mb" src="share/image/new-product-bg.png" alt="Ảnh Nền Bi Laser Phoenix Light">
-                <img class="d-none d-none-ip" src="share/image/new-product-bg-mb.png" alt="Ảnh Nền Bi Laser Phoenix Light">
+                <img class="d-none d-none-ip" src="share/image/new-product-bg-mb.png"
+                    alt="Ảnh Nền Bi Laser Phoenix Light">
             </div>
             <div class="new-product-detail-img">
                 <img src="share/image/product-img-01.png" alt="Bi Laser Phoenix Light">
             </div>
         </div>
         <div class="new-product-text d-none d-none-ip">
-            <p class="fsz-12">PHOENIX LIGHT được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao quý, hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
+            <p class="fsz-12">PHOENIX LIGHT được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao quý,
+                hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
         </div>
     </section>
     <!-- San Pham Moi End -->
@@ -338,7 +356,9 @@
                 </div>
             </div>
             <div class="cbaz-text d-none-mb">
-                <p>Khắc họa hình tượng những người anh hùng đời thực, mang vỏ bọc của những con người bình thường nhưng chứa đựng bên trong là sức mạnh phi thường. Họ mạnh mẽ và âm thầm, chiến đấu bằng trái tim anh hùng, bảo vệ ánh sáng công lý và tương lai tươi đẹp.</p>
+                <p>Khắc họa hình tượng những người anh hùng đời thực, mang vỏ bọc của những con người bình thường nhưng
+                    chứa đựng bên trong là sức mạnh phi thường. Họ mạnh mẽ và âm thầm, chiến đấu bằng trái tim anh hùng,
+                    bảo vệ ánh sáng công lý và tương lai tươi đẹp.</p>
             </div>
         </div>
 
@@ -355,97 +375,102 @@
                     <img src="share/image/ironLogo.png" alt="Tên Sản Phẩm Iron">
                 </div>
                 <p class="fsz-18">LASER PROJECTOR HEADLIGHTS</p>
-                <span class="fsz-12"> m thầm phát triển và vận dụng sức mạnh công nghệ hiện đại để nâng cấp chính mình, Bi Laser Iron Light chính là người chiến binh đội trưởng thể hiện sự hài hòa trong nhiều yếu tố: ánh sáng mạnh mẽ, tản nhiệt tối ưu và vận hành cực kỳ ổn định. Đặc biệt như bộ giáp công nghệ tối tân Iron Man, ánh sáng của CBAZ Iron Light linh hoạt và bền bỉ với 6 Chip LED tiên tiến và Diode Laser NICHIA 10W của Nhật Bản, gián tiếp chạy song song với chế độ cos mang đến một tầm nhìn rõ ràng và bao quát hơn.</span>   
+                <span class="fsz-12"> m thầm phát triển và vận dụng sức mạnh công nghệ hiện đại để nâng cấp chính mình,
+                    Bi Laser Iron Light chính là người chiến binh đội trưởng thể hiện sự hài hòa trong nhiều yếu tố: ánh
+                    sáng mạnh mẽ, tản nhiệt tối ưu và vận hành cực kỳ ổn định. Đặc biệt như bộ giáp công nghệ tối tân
+                    Iron Man, ánh sáng của CBAZ Iron Light linh hoạt và bền bỉ với 6 Chip LED tiên tiến và Diode Laser
+                    NICHIA 10W của Nhật Bản, gián tiếp chạy song song với chế độ cos mang đến một tầm nhìn rõ ràng và
+                    bao quát hơn.</span>
                 <div class="click d-none d-none-ip">
                     <p>Thông số kỹ thuật</p>
                     <i class="fal fa-chevron-down clickI" id="clickBtn2"></i>
-                </div>      
+                </div>
                 <button id="thongsoBtn2" class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
             </div>
         </div>
-          <!-- Thong So Ky Thuat -->
-          <section class="rules position-r" id="thongso2">
+        <!-- Thong So Ky Thuat -->
+        <section class="rules position-r" id="thongso2">
             <div class="rules-heading">
                 <div class="rules-heading-image">
                     <img class="img1" src="share/image/heading-1.png" alt="Ảnh Heading">
-                    <img class="img2"  src="share/image/heading-1.png" alt="Ảnh Heading">
-                </div>                
+                    <img class="img2" src="share/image/heading-1.png" alt="Ảnh Heading">
+                </div>
             </div>
             <div class="rules-container">
-                   
-                    <div class="rules-price">
-                        <h2>thông số kỹ thuật</h2>
-                        <!-- <p>Giá Đại lý 6.000.000 VND</p> -->
-                        <span>Giá niêm yết 11.800.000 VND</span>
-                    </div>
-        
-                   <div class="table">
+
+                <div class="rules-price">
+                    <h2>thông số kỹ thuật</h2>
+                    <!-- <p>Giá Đại lý 6.000.000 VND</p> -->
+                    <span>Giá niêm yết 11.800.000 VND</span>
+                </div>
+
+                <div class="table">
                     <table>
                         <tr>
-                          <th>BI LASER IRON LIGHT ( BỘ CBAZ )</th>
+                            <th>BI LASER IRON LIGHT ( BỘ CBAZ )</th>
                         </tr>
-                      </table>
-        
-        
+                    </table>
+
+
                     <table>
                         <tr>
-                          <td>Phân loại</td>
-                          <td>BI LASER</td>
+                            <td>Phân loại</td>
+                            <td>BI LASER</td>
                         </tr>
                         <tr>
-                          <td>Công suất</td>
-                          <td>55W - 65W</td>
+                            <td>Công suất</td>
+                            <td>55W - 65W</td>
                         </tr>
                         <tr>
-                          <td>Nhiệt màu</td>
-                          <td>5500K</td>
+                            <td>Nhiệt màu</td>
+                            <td>5500K</td>
                         </tr>
                         <tr>
-                          <td>Kích thước</td>
-                          <td>3.0 inch</td>
+                            <td>Kích thước</td>
+                            <td>3.0 inch</td>
                         </tr>
                         <tr>
-                          <td>Chip LED/LASER</td>
-                          <td>6 - 3</td>
+                            <td>Chip LED/LASER</td>
+                            <td>6 - 3</td>
                         </tr>
                         <tr>
-                          <td>Diode laser</td>
-                          <td>1 (NICHIA 10W)</td>
+                            <td>Diode laser</td>
+                            <td>1 (NICHIA 10W)</td>
                         </tr>
                         <tr>
                             <td>Chỉ số chống nước</td>
                             <td>IP65</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Điệp áp</td>
                             <td>9 - 16V</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Nhiệt độ</td>
                             <td>-40°C ~ +105°C</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Tuổi thọ</td>
                             <td>Trên 30.000 giờ</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Bảo hành</td>
                             <td>3 năm</td>
-                          </tr>
-                      </table>
-                   </div>
-        
-        
-                    <div class="rules-product">
-                        <div class="rules-product-bg">
-                            <img src="share/image/new-product-bg.png" alt="Anh Nen">
-                        </div>
-                        <div class="rules-product-img">
-                            <img src="share/image/product-img-01.png" alt="San Pham">
-                        </div>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div class="rules-product">
+                    <div class="rules-product-bg">
+                        <img src="share/image/new-product-bg.png" alt="Anh Nen">
                     </div>
-                  
-                 
+                    <div class="rules-product-img">
+                        <img src="share/image/product-img-01.png" alt="San Pham">
+                    </div>
+                </div>
+
+
             </div>
             <button style="padding: 16px 80px;
             border-radius: 5px;
@@ -457,8 +482,8 @@
             <div class="rules-footer">
                 <div class="rules-footer-image">
                     <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
-                    <img class="img2"  src="share/image/footer-1.png" alt="Ảnh Heading">
-                    <img class="img3"  src="share/image/footer-1.png" alt="Ảnh Heading">
+                    <img class="img2" src="share/image/footer-1.png" alt="Ảnh Heading">
+                    <img class="img3" src="share/image/footer-1.png" alt="Ảnh Heading">
                 </div>
             </div>
         </section>
@@ -479,11 +504,15 @@
                     <img src="share/image/captainLogo.png" alt="Tên Sản Phẩm Captain">
                 </div>
                 <p class="fsz-18">LED PROJECTOR HEADLIGHTS 1.8 INCH</p>
-                <span class="fsz-12">Captain Light 1.8 Inch mang hình tượng siêu anh hùng Captain America với một thiết kế vô cùng tinh tế. Nhỏ gọn nhưng mang tính đột phá, Captain Light 1.8 inch giải quyết những vấn đề nan giải về kích thước trên các dòng xe cải tiến hiện đại. Cùng với đó là công nghệ chiếu sáng mạnh mẽ từ Chip LED OSRAM, Bi LED Captain Light như một tấm khiên công nghệ phòng thủ, thầm lặng bảo vệ cho xe trước màn đêm tối với nguồn sáng ổn định và bền bỉ.</span>  
+                <span class="fsz-12">Captain Light 1.8 Inch mang hình tượng siêu anh hùng Captain America với một thiết
+                    kế vô cùng tinh tế. Nhỏ gọn nhưng mang tính đột phá, Captain Light 1.8 inch giải quyết những vấn đề
+                    nan giải về kích thước trên các dòng xe cải tiến hiện đại. Cùng với đó là công nghệ chiếu sáng mạnh
+                    mẽ từ Chip LED OSRAM, Bi LED Captain Light như một tấm khiên công nghệ phòng thủ, thầm lặng bảo vệ
+                    cho xe trước màn đêm tối với nguồn sáng ổn định và bền bỉ.</span>
                 <div class="click d-none d-none-ip">
                     <p>Thông số kỹ thuật</p>
                     <i class="fal fa-chevron-down clickI" id="clickBtn3"></i>
-                </div>       
+                </div>
                 <button id="thongsoBtn3" class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
             </div>
 
@@ -494,85 +523,85 @@
             </div>
 
         </div>
-          <!-- Thong So Ky Thuat -->
-          <section class="rules position-r" id="thongso3">
+        <!-- Thong So Ky Thuat -->
+        <section class="rules position-r" id="thongso3">
             <div class="rules-heading">
                 <div class="rules-heading-image">
                     <img class="img1" src="share/image/heading-1.png" alt="Ảnh Heading">
-                    <img class="img2"  src="share/image/heading-1.png" alt="Ảnh Heading">
-                </div>                
+                    <img class="img2" src="share/image/heading-1.png" alt="Ảnh Heading">
+                </div>
             </div>
             <div class="rules-container">
-                   
-                    <div class="rules-price">
-                        <h2>thông số kỹ thuật</h2>
-                        <!-- <p>Giá Đại lý 3.900.000 VND</p> -->
-                        <span>Giá niêm yết 7.500.000 VND</span>
-                    </div>
-        
-                   <div class="table">
+
+                <div class="rules-price">
+                    <h2>thông số kỹ thuật</h2>
+                    <!-- <p>Giá Đại lý 3.900.000 VND</p> -->
+                    <span>Giá niêm yết 7.500.000 VND</span>
+                </div>
+
+                <div class="table">
                     <table>
                         <tr>
-                          <th>BI LED CAPTAIN LIGHT 1.8 INCH ( BỘ CBAZ )	</th>
+                            <th>BI LED CAPTAIN LIGHT 1.8 INCH ( BỘ CBAZ ) </th>
                         </tr>
-                      </table>
-        
-        
+                    </table>
+
+
                     <table>
                         <tr>
-                          <td>Phân loại</td>
-                          <td>BI LED</td>
+                            <td>Phân loại</td>
+                            <td>BI LED</td>
                         </tr>
                         <tr>
-                          <td>Công suất</td>
-                          <td>46W - 48W</td>
+                            <td>Công suất</td>
+                            <td>46W - 48W</td>
                         </tr>
                         <tr>
-                          <td>Nhiệt màu</td>
-                          <td>5500K</td>
+                            <td>Nhiệt màu</td>
+                            <td>5500K</td>
                         </tr>
                         <tr>
-                          <td>Kích thước</td>
-                          <td>1.8 inch</td>
+                            <td>Kích thước</td>
+                            <td>1.8 inch</td>
                         </tr>
                         <tr>
-                          <td>Chip LED/LASER</td>
-                          <td>6 - 3 (LED OSRAM)</td>
+                            <td>Chip LED/LASER</td>
+                            <td>6 - 3 (LED OSRAM)</td>
                         </tr>
                         <tr>
                             <td>Chỉ số chống nước</td>
                             <td>IP65</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Điệp áp</td>
                             <td>9 - 16V</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Nhiệt độ</td>
                             <td>-40°C ~ +105°C</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Tuổi thọ</td>
                             <td>Trên 30.000 giờ</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Bảo hành</td>
                             <td>3 năm</td>
-                          </tr>
-                      </table>
-                   </div>
-        
-        
-                    <div class="rules-product">
-                        <div class="rules-product-bg">
-                            <img src="share/image/new-product-bg.png" alt="Anh Nen">
-                        </div>
-                        <div class="rules-product-img">
-                            <img src="share/image/product-img-01.png" alt="San Pham">
-                        </div>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div class="rules-product">
+                    <div class="rules-product-bg">
+                        <img src="share/image/new-product-bg.png" alt="Anh Nen">
                     </div>
-                  
-                 
+                    <div class="rules-product-img">
+                        <img src="share/image/product-img-01.png" alt="San Pham">
+                    </div>
+                </div>
+
+
             </div>
             <button style="padding: 16px 80px;
             border-radius: 5px;
@@ -584,8 +613,8 @@
             <div class="rules-footer">
                 <div class="rules-footer-image">
                     <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
-                    <img class="img2"  src="share/image/footer-1.png" alt="Ảnh Heading">
-                    <img class="img3"  src="share/image/footer-1.png" alt="Ảnh Heading">
+                    <img class="img2" src="share/image/footer-1.png" alt="Ảnh Heading">
+                    <img class="img3" src="share/image/footer-1.png" alt="Ảnh Heading">
                 </div>
             </div>
         </section>
@@ -607,97 +636,102 @@
                     <img src="share/image/thorLogo.png" alt="Tên Sản Phẩm THOR">
                 </div>
                 <p class="fsz-18">LASER PROJECTOR HEADLIGHTS 1.8 INCH</p>
-                <span class="fsz-12">Được lấy cảm hứng từ hình tượng nhân vật Thần Sấm Thor - một trong những siêu anh hùng mạnh nhất vũ trụ, Bi Laser Thor Light 1.8 inch mang đến sự khác biệt chưa từng có trong công nghệ tăng sáng ô tô. Mạnh mẽ và nhanh chóng như tia sét thần Thor, CBAZ Thor sở hữu ánh sáng pha Laser 5500K với khả năng phát sáng tốc độ, đặc biệt được tối ưu trong thiết kế 1.8 inch cực kỳ nhỏ gọn. CBAZ Thor chính là chiếc búa thần đầy quyền năng trong vũ trụ ánh sáng AOZOOM với thứ ánh sáng mạnh mẽ, bền bỉ, có khả năng xuyên phá mọi không gian bảo vệ bạn an toàn trên mọi hành trình.</span>  
+                <span class="fsz-12">Được lấy cảm hứng từ hình tượng nhân vật Thần Sấm Thor - một trong những siêu anh
+                    hùng mạnh nhất vũ trụ, Bi Laser Thor Light 1.8 inch mang đến sự khác biệt chưa từng có trong công
+                    nghệ tăng sáng ô tô. Mạnh mẽ và nhanh chóng như tia sét thần Thor, CBAZ Thor sở hữu ánh sáng pha
+                    Laser 5500K với khả năng phát sáng tốc độ, đặc biệt được tối ưu trong thiết kế 1.8 inch cực kỳ nhỏ
+                    gọn. CBAZ Thor chính là chiếc búa thần đầy quyền năng trong vũ trụ ánh sáng AOZOOM với thứ ánh sáng
+                    mạnh mẽ, bền bỉ, có khả năng xuyên phá mọi không gian bảo vệ bạn an toàn trên mọi hành trình.</span>
                 <div class="click d-none d-none-ip">
                     <p>Thông số kỹ thuật</p>
                     <i class="fal fa-chevron-down clickI" id="clickBtn4"></i>
-                </div>       
+                </div>
                 <button id="thongsoBtn4" class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
             </div>
         </div>
-          <!-- Thong So Ky Thuat -->
-          <section class="rules position-r" id="thongso4">
+        <!-- Thong So Ky Thuat -->
+        <section class="rules position-r" id="thongso4">
             <div class="rules-heading">
                 <div class="rules-heading-image">
                     <img class="img1" src="share/image/heading-1.png" alt="Ảnh Heading">
-                    <img class="img2"  src="share/image/heading-1.png" alt="Ảnh Heading">
-                </div>                
+                    <img class="img2" src="share/image/heading-1.png" alt="Ảnh Heading">
+                </div>
             </div>
             <div class="rules-container">
-                   
-                    <div class="rules-price">
-                        <h2>thông số kỹ thuật</h2>
-                        <!-- <p>Giá Đại lý 5.200.000 VND</p> -->
-                        <span>Giá niêm yết 9.800.000 VND</span>
-                    </div>
-        
-                   <div class="table">
+
+                <div class="rules-price">
+                    <h2>thông số kỹ thuật</h2>
+                    <!-- <p>Giá Đại lý 5.200.000 VND</p> -->
+                    <span>Giá niêm yết 9.800.000 VND</span>
+                </div>
+
+                <div class="table">
                     <table>
                         <tr>
-                          <th>BI LASER THOR LIGHT 1.8 INCH ( BỘ CBAZ )	</th>
+                            <th>BI LASER THOR LIGHT 1.8 INCH ( BỘ CBAZ ) </th>
                         </tr>
-                      </table>
-        
-        
+                    </table>
+
+
                     <table>
                         <tr>
-                          <td>Phân loại</td>
-                          <td>BI LASER</td>
+                            <td>Phân loại</td>
+                            <td>BI LASER</td>
                         </tr>
                         <tr>
-                          <td>Công suất </td>
-                          <td>46W - 52W</td>
+                            <td>Công suất </td>
+                            <td>46W - 52W</td>
                         </tr>
                         <tr>
-                          <td>Nhiệt màu </td>
-                          <td>5500K</td>
+                            <td>Nhiệt màu </td>
+                            <td>5500K</td>
                         </tr>
                         <tr>
-                          <td>Kích thước </td>
-                          <td>1.8 inch</td>
+                            <td>Kích thước </td>
+                            <td>1.8 inch</td>
                         </tr>
                         <tr>
-                          <td>Chip LED/LASER </td>
-                          <td>6 - 3</td>
+                            <td>Chip LED/LASER </td>
+                            <td>6 - 3</td>
                         </tr>
                         <tr>
-                          <td>Diode laser</td>
-                          <td>1 (GERMANY)</td>
+                            <td>Diode laser</td>
+                            <td>1 (GERMANY)</td>
                         </tr>
                         <tr>
                             <td>Chỉ số chống nước </td>
                             <td>IP65</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Điệp áp </td>
                             <td>9 - 16V</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Nhiệt độ </td>
                             <td>-40°C ~ +105°C</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Tuổi thọ </td>
                             <td>Trên 30.000 giờ</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Bảo hành </td>
                             <td>3 năm</td>
-                          </tr>
-                      </table>
-                   </div>
-        
-        
-                    <div class="rules-product">
-                        <div class="rules-product-bg">
-                            <img src="share/image/new-product-bg.png" alt="Anh Nen">
-                        </div>
-                        <div class="rules-product-img">
-                            <img src="share/image/product-img-01.png" alt="San Pham">
-                        </div>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div class="rules-product">
+                    <div class="rules-product-bg">
+                        <img src="share/image/new-product-bg.png" alt="Anh Nen">
                     </div>
-                  
-                 
+                    <div class="rules-product-img">
+                        <img src="share/image/product-img-01.png" alt="San Pham">
+                    </div>
+                </div>
+
+
             </div>
             <button style="padding: 16px 80px;
             border-radius: 5px;
@@ -709,8 +743,8 @@
             <div class="rules-footer">
                 <div class="rules-footer-image">
                     <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
-                    <img class="img2"  src="share/image/footer-1.png" alt="Ảnh Heading">
-                    <img class="img3"  src="share/image/footer-1.png" alt="Ảnh Heading">
+                    <img class="img2" src="share/image/footer-1.png" alt="Ảnh Heading">
+                    <img class="img3" src="share/image/footer-1.png" alt="Ảnh Heading">
                 </div>
             </div>
         </section>
@@ -730,7 +764,9 @@
                 </div>
             </div>
             <div class="azstars-product-text d-none-mb">
-                <p class="fsz-12">Khắc họa anh hùng đời thực, những con người bình thường nhưng bên trong là sức mạnh phi thường. Họ mạnh mẽ, thầm lặng chiến đấu để bảo vệ ánh sáng công lý và tương lai tươi đẹp bằng cả trái tim</p>
+                <p class="fsz-12">Khắc họa anh hùng đời thực, những con người bình thường nhưng bên trong là sức mạnh
+                    phi thường. Họ mạnh mẽ, thầm lặng chiến đấu để bảo vệ ánh sáng công lý và tương lai tươi đẹp bằng cả
+                    trái tim</p>
             </div>
             <button id="thongsoBtn5" class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
         </div>
@@ -745,96 +781,97 @@
             </div>
         </div>
         <div class="azstars-product-text d-none d-none-ip">
-            <p class="fsz-12">PHOENIX LIGHT được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao quý, hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
+            <p class="fsz-12">PHOENIX LIGHT được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao quý,
+                hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
         </div>
         <div class="click d-none d-none-ip">
             <p>Thông số kỹ thuật</p>
             <i class="fal fa-chevron-down clickI" id="clickBtn5"></i>
         </div>
     </section>
-      <!-- Thong So Ky Thuat -->
-      <section class="rules position-r" id="thongso5">
+    <!-- Thong So Ky Thuat -->
+    <section class="rules position-r" id="thongso5">
         <div class="rules-heading">
             <div class="rules-heading-image">
                 <img class="img1" src="share/image/heading-1.png" alt="Ảnh Heading">
-                <img class="img2"  src="share/image/heading-1.png" alt="Ảnh Heading">
-            </div>                
+                <img class="img2" src="share/image/heading-1.png" alt="Ảnh Heading">
+            </div>
         </div>
         <div class="rules-container">
-               
-                <div class="rules-price">
-                    <h2>thông số kỹ thuật</h2>
-                    <!-- <p>Giá Đại lý 4.000.000 VND</p> -->
-                    <span>Giá niêm yết 9.200.000 VND</span>
-                </div>
-    
-               <div class="table">
+
+            <div class="rules-price">
+                <h2>thông số kỹ thuật</h2>
+                <!-- <p>Giá Đại lý 4.000.000 VND</p> -->
+                <span>Giá niêm yết 9.200.000 VND</span>
+            </div>
+
+            <div class="table">
                 <table>
                     <tr>
-                      <th>BI LED LIGHT Z18 PRO ( BỘ AZ STARS )	</th>
+                        <th>BI LED LIGHT Z18 PRO ( BỘ AZ STARS ) </th>
                     </tr>
-                  </table>
-    
-    
+                </table>
+
+
                 <table>
                     <tr>
-                      <td>Phân loại </td>
-                      <td>BI LED</td>
+                        <td>Phân loại </td>
+                        <td>BI LED</td>
                     </tr>
                     <tr>
-                      <td>Công suất </td>
-                      <td>55W - W62</td>
+                        <td>Công suất </td>
+                        <td>55W - W62</td>
                     </tr>
                     <tr>
-                      <td>Nhiệt màu </td>
-                      <td>5500K</td>
+                        <td>Nhiệt màu </td>
+                        <td>5500K</td>
                     </tr>
                     <tr>
-                      <td>Kích thước </td>
-                      <td>3.0 inch</td>
+                        <td>Kích thước </td>
+                        <td>3.0 inch</td>
                     </tr>
                     <tr>
-                      <td>Chip LED/LASER </td>
-                      <td>6 - 1 (MONO LED PRO)</td>
+                        <td>Chip LED/LASER </td>
+                        <td>6 - 1 (MONO LED PRO)</td>
                     </tr>
                     <tr>
                         <td>Chỉ số chống nước </td>
                         <td>IP65</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>Điệp áp </td>
                         <td>9 - 16V</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>Nhiệt độ </td>
                         <td>-40°C ~ +105°C</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>Tuổi thọ </td>
                         <td>Trên 30.000 giờ</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>Bảo hành </td>
                         <td>3 năm</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>Khoảng cách chiếu xa </td>
                         <td>700 - 900m</td>
-                      </tr>
-                  </table>
-               </div>
-    
-    
-                <div class="rules-product">
-                    <div class="rules-product-bg">
-                        <img src="share/image/new-product-bg.png" alt="Anh Nen">
-                    </div>
-                    <div class="rules-product-img">
-                        <img src="share/image/product-img-01.png" alt="San Pham">
-                    </div>
+                    </tr>
+                </table>
+            </div>
+
+
+            <div class="rules-product">
+                <div class="rules-product-bg">
+                    <img src="share/image/new-product-bg.png" alt="Anh Nen">
                 </div>
-              
-             
+                <div class="rules-product-img">
+                    <img src="share/image/product-img-01.png" alt="San Pham">
+                </div>
+            </div>
+
+
         </div>
         <button style="padding: 16px 80px;
         border-radius: 5px;
@@ -846,8 +883,8 @@
         <div class="rules-footer">
             <div class="rules-footer-image">
                 <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
-                <img class="img2"  src="share/image/footer-1.png" alt="Ảnh Heading">
-                <img class="img3"  src="share/image/footer-1.png" alt="Ảnh Heading">
+                <img class="img2" src="share/image/footer-1.png" alt="Ảnh Heading">
+                <img class="img3" src="share/image/footer-1.png" alt="Ảnh Heading">
             </div>
         </div>
     </section>
@@ -864,9 +901,10 @@
                 </div>
 
                 <div class="motorshow-slogan d-none">
-                    <p>Thương hiệu hàng đầu trong lĩnh vực đèn tăng sáng cho ô tô. Đem đến những trải nghiệm lái xe suyên màn đếm bằng công nghệ tăng sáng bi Led, bi Laser và bi Xenon</p>      
+                    <p>Thương hiệu hàng đầu trong lĩnh vực đèn tăng sáng cho ô tô. Đem đến trải nghiệm lái xe xuyên màn
+                        đêm bằng công nghệ tăng sáng Đức với các dòng Bi LED, Bi LASER chất lượng cao.</p>
                 </div>
-     
+
                 <ul class="d-none-mb d-none-ip">
                     <li><a target="_blank" href="https://aozoom.com.vn/gioi-thieu-aozoom/">Giới thiệu</a></li>
                     <li><a target="_blank" href="https://aozoom.com.vn/">Sản phẩm</a></li>
@@ -880,10 +918,10 @@
             <div class="motorshow-contact">
                 <div class="motorshow-contact-list">
                     <div class="motorshow-contact-email">
-                        <a  href="mailto:info@mtgroupvn.com">info@mtgroupvn.com</a>                   
+                        <a href="mailto:info@mtgroupvn.com">info@mtgroupvn.com</a>
                     </div>
                     <div class="motorshow-contact-phone">
-                       <a href="tel:0339111188">(+84) 0339 111 188</a>
+                        <a href="tel:0339111188">0339 111 188</a>
                     </div>
                 </div>
                 <div class="motorshow-contact-hcm">
@@ -898,9 +936,11 @@
                 </div>
             </div>
 
-         
+
             <div class="motorshow-slogan d-none-mb d-none-ip">
-                <p>Thương hiệu hàng đầu trong lĩnh vực đèn tăng sáng cho ô tô. <br> Đem đến những trải nghiệm lái xe suyên màn đếm bằng công <br> nghệ tăng sáng bi Led, bi Laser và bi Xenon <span>Copyright © 2022 by Aozoom</span></p>      
+                <p>Thương hiệu hàng đầu trong lĩnh vực đèn tăng sáng cho ô tô. <br> Đem đến những trải nghiệm lái xe
+                    suyên màn đếm bằng công <br> nghệ tăng sáng bi Led, bi Laser và bi Xenon <span>Copyright © 2022 by
+                        Aozoom</span></p>
             </div>
         </div>
         <div class="bgFooter-mb d-none">
@@ -908,220 +948,229 @@
                 <span>Copyright © 2022 by Aozoom</span>
             </div>
 
-           <div class="imgFooter">
+            <div class="imgFooter">
                 <img src="share/image/imgFooter-mb.png" alt="Footer Image">
-           </div>
+            </div>
         </div>
     </footer>
     <!-- FOOTER END -->
 
-        <!-- FORM THE LE CHUONG TRINH -->
-        <section class="rules" id="rules">
-            <div class="rules-heading">
-                <div class="rules-heading-image">
-                    <img class="img1" src="share/image/heading-1.png" alt="Ảnh Heading">
-                    <img class="img2"  src="share/image/heading-1.png" alt="Ảnh Heading">
-                </div>                
+    <!-- FORM THE LE CHUONG TRINH -->
+    <section class="rules" id="rules">
+        <div class="rules-heading">
+            <div class="rules-heading-image">
+                <img class="img1" src="share/image/heading-1.png" alt="Ảnh Heading">
+                <img class="img2" src="share/image/heading-1.png" alt="Ảnh Heading">
             </div>
-            <div class="rules-container">
-                    
-                    <div class="rules-title">
-                        <h2>THỂ LỆ CHƯƠNG TRÌNH</h2>
-                        <p>VIETNAM MOTO SHOW 2022, gian hàng MT GROUP</p>
-                        <span>Khách mua sản phẩm đèn tăng sáng Phượng Hoàng Lửa của AOZOOM VIỆT NAM, mỗi đơn hàng ứng với 1 mã quay số trúng thưởng các sản phẩm dưới đây</span>
-                    </div>
-                    <div class="rules-reward">                     
-                        <div class="rules-reward-items">
-                            <div class="rules-reward-img">
-                                <img src="share/image/airpod.png" alt="Apple Watch 7">
-                            </div>
-                            <div class="rules-reward-name airpod">
-                                <p>2 AIRPOD PRO 2</p>
-                            </div>
-                        </div>         
-                        <div class="rules-reward-items">
-                            <div class="rules-reward-img">
-                                <img src="share/image/phone.png" alt="Apple Watch 7">
-                            </div>
-                            <div class="rules-reward-name iphone">
-                                <p>1 IPHONE 14 PRO MAX 256GB</p>
-                                <p>1 IPHONE 14 PRO 256GB</p>
-                            </div>
-                        </div>
-                        <div class="rules-reward-items">
-                            <div class="rules-reward-img">
-                                <img src="share/image/watch.png" alt="Apple Watch 7">
-                            </div>
-                            <div class="rules-reward-name watch">
-                                <p>1 APPLE WATCH 7</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="rules-time">
-                        <h2>Thời gian chương trình</h2>
-                        <ul>
-                            <li>
-                                <p>21 - 26/10: <span>Thời gian đặt hàng online</span></p>
-                            </li>
-                            <li>
-                                <p>27 - 30/10: <span>Thời gian mua hàng trực tiếp</span></p>
-                            </li>
-                            <li>
-                                <p>14h00 - 30/10: <span>Livestream quay số trúng thưởng, công bố kết quả và trao quà liền tay</span></p>
-                            </li>
-                            <li>
-                                <h3>LƯU Ý:</h3>
-                                <span>- Chúng tôi sẽ giữ hàng và chờ bạn hoàn thành thủ tục mua sản phẩm đến hết ngày 28/10</span><br><br>
-                                <span>- Tất cả sản phẩm đặt trước sẽ mở bán trực tiếp cho khách hàng tại sự kiện vào ngày 29/10</span><br><br>
-                                <span>- Bạn có thể thanh toán online trước hoặc trong sự kiện, thông tin thanh toán online liên hệ HOTLINE +84339111188</span><br><br>
-                                <span>- Khi bạn trúng giải nhưng không có mặt tại sự kiện, chúng tôi sẽ liên hệ qua số điện thoại để gửi giải thưởng</span><br><br>
-                                <span>MTGROUP chân thành cảm ơn bạn đã tham gia cùng chúng tôi!</span>
-                            </li>
-                        </ul>
-                    </div>
-                   
+        </div>
+        <div class="rules-container">
+
+            <div class="rules-title">
+                <h2>THỂ LỆ CHƯƠNG TRÌNH</h2>
+                <p>VIETNAM MOTO SHOW 2022, gian hàng MT GROUP</p>
+                <span>Khách mua sản phẩm đèn tăng sáng Phượng Hoàng Lửa của AOZOOM VIỆT NAM, mỗi đơn hàng ứng với 1 mã
+                    quay số trúng thưởng các sản phẩm dưới đây</span>
             </div>
-            <button style="padding: 16px 80px;
+            <div class="rules-reward">
+                <div class="rules-reward-items">
+                    <div class="rules-reward-img">
+                        <img src="share/image/airpod.png" alt="Apple Watch 7">
+                    </div>
+                    <div class="rules-reward-name airpod">
+                        <p>2 AIRPOD PRO 2</p>
+                    </div>
+                </div>
+                <div class="rules-reward-items">
+                    <div class="rules-reward-img">
+                        <img src="share/image/phone.png" alt="Apple Watch 7">
+                    </div>
+                    <div class="rules-reward-name iphone">
+                        <p>1 IPHONE 14 PRO MAX 256GB</p>
+                        <p>1 IPHONE 14 PRO 256GB</p>
+                    </div>
+                </div>
+                <div class="rules-reward-items">
+                    <div class="rules-reward-img">
+                        <img src="share/image/watch.png" alt="Apple Watch 7">
+                    </div>
+                    <div class="rules-reward-name watch">
+                        <p>1 APPLE WATCH 7</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rules-time">
+                <h2>Thời gian chương trình</h2>
+                <ul>
+                    <li>
+                        <p>21 - 26/10: <span>Thời gian đặt hàng online</span></p>
+                    </li>
+                    <li>
+                        <p>27 - 30/10: <span>Thời gian mua hàng trực tiếp</span></p>
+                    </li>
+                    <li>
+                        <p>14h00 - 30/10: <span>Livestream quay số trúng thưởng, công bố kết quả và trao quà liền
+                                tay</span></p>
+                    </li>
+                    <li>
+                        <h3>LƯU Ý:</h3>
+                        <span>- Chúng tôi sẽ giữ hàng và chờ bạn hoàn thành thủ tục mua sản phẩm đến hết ngày
+                            28/10</span><br><br>
+                        <span>- Tất cả sản phẩm đặt trước sẽ mở bán trực tiếp cho khách hàng tại sự kiện vào ngày
+                            29/10</span><br><br>
+                        <span>- Bạn có thể thanh toán online trước hoặc trong sự kiện, thông tin thanh toán online liên
+                            hệ HOTLINE +84339111188</span><br><br>
+                        <span>- Khi bạn trúng giải nhưng không có mặt tại sự kiện, chúng tôi sẽ liên hệ qua số điện
+                            thoại để gửi giải thưởng</span><br><br>
+                        <span>MTGROUP chân thành cảm ơn bạn đã tham gia cùng chúng tôi!</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <button style="padding: 16px 80px;
             border-radius: 5px;
             color: #fff;
             background-color: var(--primary);
             display: block;
             text-align: center;
             margin: 25px auto;text-transform: uppercase;" id="back-rules">Back</button>
-            <div class="rules-footer">
-                <div class="rules-footer-image">
-                    <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
-                    <img class="img2"  src="share/image/footer-1.png" alt="Ảnh Heading">
-                    <img class="img3"  src="share/image/footer-1.png" alt="Ảnh Heading">
-                </div>
+        <div class="rules-footer">
+            <div class="rules-footer-image">
+                <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
+                <img class="img2" src="share/image/footer-1.png" alt="Ảnh Heading">
+                <img class="img3" src="share/image/footer-1.png" alt="Ảnh Heading">
             </div>
-           
-        </section>
-     <!-- FORM THE LE CHUONG TRINH -->
-            <!-- Popup Form -->
+        </div>
+
+    </section>
+    <!-- FORM THE LE CHUONG TRINH -->
+    <!-- Popup Form -->
     <div class="modal-form" id="modal-form">
         <div class="modal-bg-form">
         </div>
         <div class="modal-container modal-content">
-          <div class="modal-rows">
-            <section class="box-main-form" id="box-main-form">
-              <div class="bg-img">
-                <img src="share/image/heading-1.png" alt="Ảnh Nền">
-              </div>
-              <header class="header-form">
-                <div class="txt-left">
-                
-                </div>
-                <div class="txt-center">
-                  <img src="share/image/aozoomLogo.png" alt="Logo Aozoom">
-                </div>
-                <button id="closeBtn" type="button" class="txt-right">
-                  <span class="fas fa-times"></span>
-                </button>
-              </header>
-              <form id="form-contact" >
-                  <div class="all-group">
-      
-                    <div class="form-group">
-                      <input id="fullname" type="text" name="fullname" class="form-control" placeholder="Nhập họ và tên">
-                     
+            <div class="modal-rows">
+                <section class="box-main-form" id="box-main-form">
+                    <div class="bg-img">
+                        <img src="share/image/heading-1.png" alt="Ảnh Nền">
                     </div>
-      
-                    <div class="form-group">
-                      <input id="tel" type="text" name="phone" class="form-control" placeholder="Nhập số điện thoại">
-                     
-                    </div>
-      
-                    <select title="Dòng xe" name="models" class="select-az form-select">
-                        <option value="">Dòng xe</option>
-                        <option value="Phú Thọ">Sedan</option>
-                        <option value="Hà Nam">Hatchback</option>
-                        <option value="Lạng Sơn">SUV</option>
-                        <option value="Lào Cai">Crossover - CUV</option>
-                        <option value="Hà Giang">MPV</option>
-                        <option value="Vĩnh Phúc">Coupe</option>
-                        <option value="Thái Bình">Convertible</option>
-                        <option value="Quảng Ninh">Pickup</option>
-                        <option value="Khác">Limousine</option>
-                        <option value="Khác">Khác</option>
-                      </select><br>
-      
-                    <div class="form-group">
-                        <input id="text" type="text" name="number_car" class="form-control" placeholder="Nhập biển số xe">
-                       
-                      </div>
-                    <button type="submit" class="btn-send btn-submit submit btn-contact">ĐĂNG KÝ </button>
-      
-                  </div>
-              </form>
-              <footer class="footer-form">
-                <img class="img1" src="share/image/footer-dk.png" alt="Footer Image">
-                <img class="img2" src="share/image/footer-dk.png" alt="Footer Image">
-              </footer>
-            </section> 
-          </div>
+                    <header class="header-form">
+                        <div class="txt-left">
+
+                        </div>
+                        <div class="txt-center">
+                            <img src="share/image/aozoomLogo.png" alt="Logo Aozoom">
+                        </div>
+                        <button id="closeBtn" type="button" class="txt-right">
+                            <span class="fas fa-times"></span>
+                        </button>
+                    </header>
+                    <form id="form-contact">
+                        <div class="all-group">
+
+                            <div class="form-group">
+                                <input id="fullname" type="text" name="fullname" class="form-control"
+                                    placeholder="Nhập họ và tên">
+
+                            </div>
+
+                            <div class="form-group">
+                                <input id="tel" type="text" name="phone" class="form-control"
+                                    placeholder="Nhập số điện thoại">
+
+                            </div>
+
+                            <select title="Dòng xe" name="models" class="select-az form-select">
+                                <option value="">Dòng xe</option>
+                                <option value="Phú Thọ">Sedan</option>
+                                <option value="Hà Nam">Hatchback</option>
+                                <option value="Lạng Sơn">SUV</option>
+                                <option value="Lào Cai">Crossover - CUV</option>
+                                <option value="Hà Giang">MPV</option>
+                                <option value="Vĩnh Phúc">Coupe</option>
+                                <option value="Thái Bình">Convertible</option>
+                                <option value="Quảng Ninh">Pickup</option>
+                                <option value="Khác">Limousine</option>
+                                <option value="Khác">Khác</option>
+                            </select><br>
+
+                            <div class="form-group">
+                                <input id="text" type="text" name="number_car" class="form-control"
+                                    placeholder="Nhập biển số xe">
+
+                            </div>
+                            <button type="submit" class="btn-send btn-submit submit btn-contact">ĐĂNG KÝ </button>
+
+                        </div>
+                    </form>
+                    <footer class="footer-form">
+                        <img class="img1" src="share/image/footer-dk.png" alt="Footer Image">
+                        <img class="img2" src="share/image/footer-dk.png" alt="Footer Image">
+                    </footer>
+                </section>
+            </div>
         </div>
-      </div>
-<!-- Form thanh cong -->
-      <div class="modal-form" id="success">
+    </div>
+    <!-- Form thanh cong -->
+    <div class="modal-form" id="success">
         <div class="modal-bg-form">
         </div>
         <div class="modal-container modal-content">
-          <div class="modal-rows">
-            <section class="box-main-form" id="box-main-form">
-              <div class="bg-img">
-                <img src="share/image/heading-1.png" alt="Ảnh Nền">
-              </div>
-              <header class="header-form">
-                <div class="txt-left">
-                
-                </div>
-                <div class="txt-center">
-                  <img src="share/image/aozoomLogo.png" alt="Logo Aozoom">
-                </div>
-                <button id="closeBtn" type="button" class="txt-right">
-                  <span class="fas fa-times"></span>
-                </button>
-              </header>
-              <div class="success">
-                <p>Chúc mừng <span class="fullname">Trần Tấn Pảo</span>
-                    đã đăng ký thành công</p>
+            <div class="modal-rows">
+                <section class="box-main-form" id="box-main-form">
+                    <div class="bg-img">
+                        <img src="share/image/heading-1.png" alt="Ảnh Nền">
+                    </div>
+                    <header class="header-form">
+                        <div class="txt-left">
 
-                <ul>
-                    <li>
-                        <p>Mã số dự thưởng của bạn là <span  class="code">MTG-12345</span></p>
-                    </li> 
-                    <li>
-                        <p>Số điện thoại: <span class="phone">0123456789</span></p>
-                    </li>
-                    <li>
-                        <p>Dòng xe: <span class="models">Khác</span></p>
-                    </li>
-                    <li>
-                        <p>Biển số: <span class="number_car">59F-T1 12345</span></p>
-                    </li>
-                    <li>
-                        <div class="img">
-                            <img class="qr_code" src="share/image/qr.png" alt="QR">
                         </div>
-                    </li>
-                </ul>
-                <div class="download">
-                    <a href="" class="download-img" download>
-                        <img src="share/image/download.png" alt="download" style=" width: 32px;
+                        <div class="txt-center">
+                            <img src="share/image/aozoomLogo.png" alt="Logo Aozoom">
+                        </div>
+                        <button id="closeBtn" type="button" class="txt-right">
+                            <span class="fas fa-times"></span>
+                        </button>
+                    </header>
+                    <div class="success">
+                        <p>Chúc mừng <span class="fullname">Trần Tấn Pảo</span>
+                            đã đăng ký thành công</p>
+
+                        <ul>
+                            <li>
+                                <p>Mã số dự thưởng của bạn là <span class="code">MTG-12345</span></p>
+                            </li>
+                            <li>
+                                <p>Số điện thoại: <span class="phone">0123456789</span></p>
+                            </li>
+                            <li>
+                                <p>Dòng xe: <span class="models">Khác</span></p>
+                            </li>
+                            <li>
+                                <p>Biển số: <span class="number_car">59F-T1 12345</span></p>
+                            </li>
+                            <li>
+                                <div class="img">
+                                    <img class="qr_code" src="share/image/qr.png" alt="QR">
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="download">
+                            <a href="" class="download-img" download>
+                                <img src="share/image/download.png" alt="download" style=" width: 32px;
                         height: 32px;">
-                    </a>
-                </div>
-              </div>
-              <footer class="footer-form">
-                <img class="img1" src="share/image/footer-dk.png" alt="Footer Image">
-                <img class="img2" src="share/image/footer-dk.png" alt="Footer Image">
-              </footer>
-            </section> 
-          </div>
+                            </a>
+                        </div>
+                    </div>
+                    <footer class="footer-form">
+                        <img class="img1" src="share/image/footer-dk.png" alt="Footer Image">
+                        <img class="img2" src="share/image/footer-dk.png" alt="Footer Image">
+                    </footer>
+                </section>
+            </div>
         </div>
-      </div>
-      <!-- Popup Form -->
+    </div>
+    <!-- Popup Form -->
     <!-- Thong So Ky Thuat -->
     <!-- <section class="rules position-r" id="thongso">
         <div class="rules-heading">
@@ -1226,48 +1275,52 @@
     <!-- Facebook -->
 
     <div class="hotline-phone-ring-wrap">
-      <div class="hotline-phone-ring">
-        <div class="hotline-phone-ring-circle"></div>
-        <div class="hotline-phone-ring-circle-fill"></div>
-        <div class="hotline-phone-ring-img-circle">
-        <a href="https://m.me/vietnamaozoom" target="_blank" rel="nofollow" class="pps-btn-img">
-          <img src="https://giuseart.com/wp-content/uploads/2020/03/fb.png" alt="Liên hệ qua Message" width="100px">
-        </a>
+        <div class="hotline-phone-ring">
+            <div class="hotline-phone-ring-circle"></div>
+            <div class="hotline-phone-ring-circle-fill"></div>
+            <div class="hotline-phone-ring-img-circle">
+                <a href="https://m.me/vietnamaozoom" target="_blank" rel="nofollow" class="pps-btn-img">
+                    <img src="https://giuseart.com/wp-content/uploads/2020/03/fb.png" alt="Liên hệ qua Message"
+                        width="100px">
+                </a>
+            </div>
         </div>
-      </div>
-      <!-- <div class="hotline-bar">
+        <!-- <div class="hotline-bar">
         <a href="tel:0988488263">
           <span class="text-hotline">0988.488.263</span>
         </a>
       </div> -->
     </div>
-   
+
     <!-- Javascript -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js"></script>
-    <script src="public/js/script.js"></script>  
-    <script src="public/js/validate.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js"></script>
+    <script src="public/js/script.js"></script>
+    <script src="public/js/validate.js"></script>
     <script>
-        let slideIndex = 0;
-        showSlides();
-        
-        function showSlides() {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          slideIndex++;
-          if (slideIndex > slides.length) {slideIndex = 1}    
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 2000); // Change image every 2 seconds
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
         }
-        </script>
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
 </body>
+
 </html>
