@@ -1082,15 +1082,15 @@
 
                             <select title="Dòng xe" name="models" class="select-az form-select">
                                 <option value="">Dòng xe</option>
-                                <option value="Phú Thọ">Sedan</option>
-                                <option value="Hà Nam">Hatchback</option>
-                                <option value="Lạng Sơn">SUV</option>
-                                <option value="Lào Cai">Crossover - CUV</option>
-                                <option value="Hà Giang">MPV</option>
-                                <option value="Vĩnh Phúc">Coupe</option>
-                                <option value="Thái Bình">Convertible</option>
-                                <option value="Quảng Ninh">Pickup</option>
-                                <option value="Khác">Limousine</option>
+                                <option value="Sedan">Sedan</option>
+                                <option value="Hatchback">Hatchback</option>
+                                <option value="SUV">SUV</option>
+                                <option value="Crossover - CUV">Crossover - CUV</option>
+                                <option value="MPV">MPV</option>
+                                <option value="Coupe">Coupe</option>
+                                <option value="Convertible">Convertible</option>
+                                <option value="Pickup">Pickup</option>
+                                <option value="Limousine">Limousine</option>
                                 <option value="Khác">Khác</option>
                             </select><br>
 
