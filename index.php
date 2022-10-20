@@ -159,7 +159,6 @@
                    
                     <div class="rules-price">
                         <h2>thông số kỹ thuật</h2>
-                        <!-- <p>Giá Đại lý 15.800.000 VND</p> -->
                         <span>Giá niêm yết 28.000.000 VND</span>
                     </div>
         
