@@ -8,7 +8,7 @@ $(document).ready(function () {
         }, "Vui lòng nhập đúng số điện thoại");
         $(element).validate({
             rules: {
-                'data[name]': {
+                fullname: {
                     required: true,
                     maxlength: 30
                 },
@@ -38,31 +38,13 @@ $(document).ready(function () {
                     required: "Vui lòng chọn dòng xe"
                 }
             }, submitHandler: function (form) {
-                getTime();
-                getUrl();
                 $.ajax({
                     dataType: "json",
                     type: "POST",
-                    url: "https://sheetdb.io/api/v1/p9all0yl3ubhj",
+                    url: "",
                     data: $(form).serializeArray(),
                     success: function (data) {
-                        if (data.created != 0) {
-                            url = "https://azstars.com.vn/thank-you-do-den.html";
-                            $(location).attr("href", url);
-                           $.ajax({
-                            dataType: "json",
-                            type: "POST",
-                            url: "modules/sendmail.php",
-                            data: {
-                                success : true
-                            },
-                            success: function (res) {
-                                
-                            }
-                           })
-                        } else {
-                            alert('Thêm dữ liệu thất bại');
-                        }
+                        console.log(data);
                     },
                 });
             },

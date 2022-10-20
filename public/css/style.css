@@ -165,7 +165,7 @@
     font-size: 24px;
     list-style-type: none;
     color: var(--white);
-    background: url(/share/image/bg-time.png);
+    background: url(../../share/image/bg-time.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 141px;
@@ -183,7 +183,7 @@
 
 /* Banner Trung Thuong Start */
 .reward {
-    background: url(/share/image/bg-rewards.png);
+    background: url(../../share/image/bg-rewards.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center
@@ -379,15 +379,15 @@
 }
 
 .cbaz-product .bg-iron {
-    background-image: url('/share/image/ironBg.png');
+    background-image: url('../../share/image/ironBg.png');
 }
 
 .cbaz-product .bg-captain {
-   background-image: url('/share/image/captainBg.png');
+   background-image: url('../../share/image/captainBg.png');
 }
 
 .cbaz-product .bg-thor {
-   background-image: url('/share/image/thorBg.png');
+   background-image: url('../../share/image/thorBg.png');
 }
 
 .cbaz-product .cbaz-image .cbaz-image-item {
