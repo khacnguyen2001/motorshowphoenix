@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <base href="http://localhost/motorshowphoenix/">
+    <!-- <base href="http://localhost/motorshowphoenix/"> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,16 +39,16 @@
                     <div class="main-product-phoenix-show">
                         <div class="main-product-phoenix-show-item">
                             <ul>
-                                <li>
+                                <li class="clickShowImage1">
+                                    <img src="share/image/product-img-01.png" alt="Bi Laser Phoenix Light">
+                                </li>
+                                <li class="clickShowImage2">
                                     <img src="share/image/den-phoenix.png" alt="Bi Laser Phoenix Light">
                                 </li>
-                                <li>
+                                <li class="clickShowImage3">
                                     <img src="share/image/den-phoenix.png" alt="Bi Laser Phoenix Light">
                                 </li>
-                                <li>
-                                    <img src="share/image/den-phoenix.png" alt="Bi Laser Phoenix Light">
-                                </li>
-                                <li>
+                                <li class="clickShowImage4">
                                     <img src="share/image/den-phoenix.png" alt="Bi Laser Phoenix Light">
                                 </li>
                             </ul>
@@ -61,7 +61,11 @@
                             </div>
 
                             <div class="phoenix-show-image">
-                                <img src="share/image/product-img-01.png" alt="Bi Laser Phoenix Light">
+                                <img class="imageShow" src="share/image/product-img-01.png" alt="Bi Laser Phoenix Light">
+                                <img class="imageShow1 d-none-ip d-none-mb" src="share/image/product-img-01.png" alt="Bi Laser Phoenix Light">
+                                <img class="imageShow2  d-none-ip d-none-mb" src="share/image/den-phoenix.png" alt="Bi Laser Phoenix Light">
+                                <img class="imageShow3  d-none-ip d-none-mb" src="share/image/airpod.png" alt="Bi Laser Phoenix Light">
+                                <img class="imageShow4  d-none-ip d-none-mb" src="share/image/den-phoenix.png" alt="Bi Laser Phoenix Light">
                             </div>
                         </div>
                     </div>
@@ -132,7 +136,7 @@
 
            <div class="info">
             <div class="info-content">
-                <p>Sự kết hợp tuyệt vời giữa Double Laser và hệ thống tản nhiệt tối tân giúp Phoenix Light sở hữu ánh sáng siêu pha bứt phá tầm nhìn cùng khả năng vận hành cực kỳ tối ưu.</p>
+                <p>Sự kết hợp tuyệt vời giữa Double Laser và hệ thống tản nhiệt tối tân giúp PHOENIX LIGHT sở hữu ánh sáng siêu pha bứt phá tầm nhìn cùng khả năng vận hành cực kỳ tối ưu.</p>
             </div>
 
             <div class="main-product-phoenix-price">
@@ -306,7 +310,7 @@
                 </div>
             </div>
             <div class="new-product-text d-none-mb">
-                <p class="fsz-12">Phoenix Light được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao quý, hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
+                <p class="fsz-12">PHOENIX LIGHT được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao quý, hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
             </div>
         </div>
 
@@ -320,7 +324,7 @@
             </div>
         </div>
         <div class="new-product-text d-none d-none-ip">
-            <p class="fsz-12">Phoenix Light được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao quý, hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
+            <p class="fsz-12">PHOENIX LIGHT được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao quý, hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
         </div>
     </section>
     <!-- San Pham Moi End -->
@@ -334,7 +338,7 @@
                 </div>
             </div>
             <div class="cbaz-text d-none-mb">
-                <p>Khắc họa anh hùng đời thực, những con người bình thường nhưng bên trong là sức mạnh phi thường. Họ mạnh mẽ, thầm lặng chiến đấu để bảo vệ ánh sáng công lý và tương lai tươi đẹp bằng cả trái tim</p>
+                <p>Khắc họa hình tượng những người anh hùng đời thực, mang vỏ bọc của những con người bình thường nhưng chứa đựng bên trong là sức mạnh phi thường. Họ mạnh mẽ và âm thầm, chiến đấu bằng trái tim anh hùng, bảo vệ ánh sáng công lý và tương lai tươi đẹp.</p>
             </div>
         </div>
 
@@ -351,7 +355,7 @@
                     <img src="share/image/ironLogo.png" alt="Tên Sản Phẩm Iron">
                 </div>
                 <p class="fsz-18">LASER PROJECTOR HEADLIGHTS</p>
-                <span class="fsz-12">Âm thầm phát triển và vận dụng sức mạnh công nghệ hiện đại để nâng cấp, Bi LASER IRON LIGHT chính là chiến binh đội trưởng thể hiện sự hài hòa giữa ánh sáng mạnh mẽ, tản nhiệt tối ưu và vận hành cực kỳ ổn định</span>   
+                <span class="fsz-12"> m thầm phát triển và vận dụng sức mạnh công nghệ hiện đại để nâng cấp chính mình, Bi Laser Iron Light chính là người chiến binh đội trưởng thể hiện sự hài hòa trong nhiều yếu tố: ánh sáng mạnh mẽ, tản nhiệt tối ưu và vận hành cực kỳ ổn định. Đặc biệt như bộ giáp công nghệ tối tân Iron Man, ánh sáng của CBAZ Iron Light linh hoạt và bền bỉ với 6 Chip LED tiên tiến và Diode Laser NICHIA 10W của Nhật Bản, gián tiếp chạy song song với chế độ cos mang đến một tầm nhìn rõ ràng và bao quát hơn.</span>   
                 <div class="click d-none d-none-ip">
                     <p>Thông số kỹ thuật</p>
                     <i class="fal fa-chevron-down clickI" id="clickBtn2"></i>
@@ -474,8 +478,8 @@
                 <div class="cabz-content-name-2">
                     <img src="share/image/captainLogo.png" alt="Tên Sản Phẩm Captain">
                 </div>
-                <p class="fsz-18">LASER PROJECTOR HEADLIGHTS</p>
-                <span class="fsz-12">Âm thầm phát triển và vận dụng sức mạnh công nghệ hiện đại để nâng cấp, Bi LASER IRON LIGHT chính là chiến binh đội trưởng thể hiện sự hài hòa giữa ánh sáng mạnh mẽ, tản nhiệt tối ưu và vận hành cực kỳ ổn định</span>  
+                <p class="fsz-18">LED PROJECTOR HEADLIGHTS 1.8 INCH</p>
+                <span class="fsz-12">Captain Light 1.8 Inch mang hình tượng siêu anh hùng Captain America với một thiết kế vô cùng tinh tế. Nhỏ gọn nhưng mang tính đột phá, Captain Light 1.8 inch giải quyết những vấn đề nan giải về kích thước trên các dòng xe cải tiến hiện đại. Cùng với đó là công nghệ chiếu sáng mạnh mẽ từ Chip LED OSRAM, Bi LED Captain Light như một tấm khiên công nghệ phòng thủ, thầm lặng bảo vệ cho xe trước màn đêm tối với nguồn sáng ổn định và bền bỉ.</span>  
                 <div class="click d-none d-none-ip">
                     <p>Thông số kỹ thuật</p>
                     <i class="fal fa-chevron-down clickI" id="clickBtn3"></i>
@@ -602,8 +606,8 @@
                 <div class="cabz-content-name">
                     <img src="share/image/thorLogo.png" alt="Tên Sản Phẩm THOR">
                 </div>
-                <p class="fsz-18">LASER PROJECTOR HEADLIGHTS</p>
-                <span class="fsz-12">Âm thầm phát triển và vận dụng sức mạnh công nghệ hiện đại để nâng cấp, Bi LASER IRON LIGHT chính là chiến binh đội trưởng thể hiện sự hài hòa giữa ánh sáng mạnh mẽ, tản nhiệt tối ưu và vận hành cực kỳ ổn định</span>  
+                <p class="fsz-18">LASER PROJECTOR HEADLIGHTS 1.8 INCH</p>
+                <span class="fsz-12">Được lấy cảm hứng từ hình tượng nhân vật Thần Sấm Thor - một trong những siêu anh hùng mạnh nhất vũ trụ, Bi Laser Thor Light 1.8 inch mang đến sự khác biệt chưa từng có trong công nghệ tăng sáng ô tô. Mạnh mẽ và nhanh chóng như tia sét thần Thor, CBAZ Thor sở hữu ánh sáng pha Laser 5500K với khả năng phát sáng tốc độ, đặc biệt được tối ưu trong thiết kế 1.8 inch cực kỳ nhỏ gọn. CBAZ Thor chính là chiếc búa thần đầy quyền năng trong vũ trụ ánh sáng AOZOOM với thứ ánh sáng mạnh mẽ, bền bỉ, có khả năng xuyên phá mọi không gian bảo vệ bạn an toàn trên mọi hành trình.</span>  
                 <div class="click d-none d-none-ip">
                     <p>Thông số kỹ thuật</p>
                     <i class="fal fa-chevron-down clickI" id="clickBtn4"></i>
@@ -741,7 +745,7 @@
             </div>
         </div>
         <div class="azstars-product-text d-none d-none-ip">
-            <p class="fsz-12">Phoenix Light được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao quý, hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
+            <p class="fsz-12">PHOENIX LIGHT được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao quý, hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
         </div>
         <div class="click d-none d-none-ip">
             <p>Thông số kỹ thuật</p>
@@ -1217,6 +1221,27 @@
             </div>
         </div>
     </section> -->
+
+
+    <!-- Facebook -->
+
+    <div class="hotline-phone-ring-wrap">
+      <div class="hotline-phone-ring">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle">
+        <a href="https://m.me/vietnamaozoom" target="_blank" rel="nofollow" class="pps-btn-img">
+          <img src="https://giuseart.com/wp-content/uploads/2020/03/fb.png" alt="Liên hệ qua Message" width="100px">
+        </a>
+        </div>
+      </div>
+      <!-- <div class="hotline-bar">
+        <a href="tel:0988488263">
+          <span class="text-hotline">0988.488.263</span>
+        </a>
+      </div> -->
+    </div>
+   
     <!-- Javascript -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
