@@ -17,7 +17,7 @@
         $username = mysqli_real_escape_string($conn, $_POST['username']);
         $password = mysqli_real_escape_string($conn, $_POST['password']);
         $password = md5($password);
-
+        
         $sql = "SELECT * FROM `admin` WHERE `users_name` = '$username' AND `password` = '$password'
         || `email` = '$username' AND `password` = '$password'";
 

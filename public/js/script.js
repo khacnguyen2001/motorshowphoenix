@@ -1,150 +1,152 @@
 (function () {
+  const second = 1000,
+    minute = second * 60,
+    hour = minute * 60,
+    day = hour * 24;
 
-   
-    const second = 1000,
-          minute = second * 60,
-          hour = minute * 60,
-          day = hour * 24;
-  
-    //I'm adding this section so I don't have to keep updating this pen every year :-)
-    //remove this if you don't need it
-    let today = new Date(),
-        dd = String(today.getDate()).padStart(2, "0"),
-        mm = String(today.getMonth() + 1).padStart(2, "0"),
-        yyyy = today.getFullYear(),
-        nextYear = yyyy + 1,
-        dayMonth = "10/21/",
-        birthday = dayMonth + yyyy;
-    
-    today = mm + "/" + dd + "/" + yyyy;
-    if (today > birthday) {
-      birthday = dayMonth + nextYear;
-    }
-    //end
-    
-    const countDown = new Date(birthday).getTime(),
-        x = setInterval(function() {    
-  
-          const now = new Date().getTime(),
-                distance = countDown - now;
-  
-          document.getElementById("days").innerText = Math.floor(distance / (day)),
-            document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-            document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-            document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-        }, 0)
-    }());
+  //I'm adding this section so I don't have to keep updating this pen every year :-)
+  //remove this if you don't need it
+  let today = new Date(),
+    dd = String(today.getDate()).padStart(2, "0"),
+    mm = String(today.getMonth() + 1).padStart(2, "0"),
+    yyyy = today.getFullYear(),
+    nextYear = yyyy + 1,
+    dayMonth = "10/21/",
+    birthday = dayMonth + yyyy;
+
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > birthday) {
+    birthday = dayMonth + nextYear;
+  }
+  //end
+
+  const countDown = new Date(birthday).getTime(),
+    x = setInterval(function () {
+      const now = new Date().getTime(),
+        distance = countDown - now;
+
+      (document.getElementById("days").innerText = Math.floor(distance / day)),
+        (document.getElementById("hours").innerText = Math.floor(
+          (distance % day) / hour
+        )),
+        (document.getElementById("minutes").innerText = Math.floor(
+          (distance % hour) / minute
+        )),
+        (document.getElementById("seconds").innerText = Math.floor(
+          (distance % minute) / second
+        ));
+    }, 0);
+})();
 //ĐÓNG PHẦN HIỂN THỊ THÔNG BÁO
 // CLICK SHOW FORM O PCy
 $(document).ready(function () {
   $("#Mybtn-click").click(function () {
     $("#modal-form").show();
   });
-// DONG FORM
+  // DONG FORM
   $("#closeBtn").click(function () {
     $("#modal-form").hide();
   });
-// DONG THONG SO 
-  $(document).on("click","#back",function() {
-    $('#thongso1').hide();
-    $('#thongso2').hide();
-    $('#thongso3').hide();
-    $('#thongso4').hide();
-    $('#thongso5').hide();
+
+  $("#closeBtn1").click(function () {
+    $("#modal-form").hide();
   });
-// DONG THE LE
+  // DONG THONG SO
+  $(document).on("click", "#back", function () {
+    $("#thongso1").hide();
+    $("#thongso2").hide();
+    $("#thongso3").hide();
+    $("#thongso4").hide();
+    $("#thongso5").hide();
+  });
+  // DONG THE LE
   $("#back-rules").click(function () {
     $("#rules").hide();
   });
 
-// HIEN THONG SO
+  // HIEN THONG SO
   // $(document).on("click","#thongsoBtn",function() {
   //   $('#thongso').show();
   // });
-// HIEN THE LE
+  // HIEN THE LE
   $("#thele").click(function () {
     $("#rules").show();
   });
-// SHOW THONG SO MOBILE
-  $(document).on("click","#clickBtn1",function() {
-    $('#thongso1').toggle();
-    $('.clickI').toggleClass('rotate');
+  // SHOW THONG SO MOBILE
+  $(document).on("click", "#clickBtn1", function () {
+    $("#thongso1").toggle();
+    $(".clickI").toggleClass("rotate");
   });
 
-  $(document).on("click","#clickBtn2",function() {
-    $('#thongso2').toggle();
-    $('.clickI').toggleClass('rotate');
+  $(document).on("click", "#clickBtn2", function () {
+    $("#thongso2").toggle();
+    $(".clickI").toggleClass("rotate");
   });
 
-  $(document).on("click","#clickBtn3",function() {
-    $('#thongso3').toggle();
-    $('.clickI').toggleClass('rotate');
+  $(document).on("click", "#clickBtn3", function () {
+    $("#thongso3").toggle();
+    $(".clickI").toggleClass("rotate");
   });
 
-  $(document).on("click","#clickBtn4",function() {
-    $('#thongso4').toggle();
-    $('.clickI').toggleClass('rotate');
+  $(document).on("click", "#clickBtn4", function () {
+    $("#thongso4").toggle();
+    $(".clickI").toggleClass("rotate");
   });
 
-  $(document).on("click","#clickBtn5",function() {
-    $('#thongso5').toggle();
-    $('.clickI').toggleClass('rotate');
+  $(document).on("click", "#clickBtn5", function () {
+    $("#thongso5").toggle();
+    $(".clickI").toggleClass("rotate");
   });
 
   // PC
-  $(document).on("click","#thongsoBtn1",function() {
-    $('#thongso1').toggle();
+  $(document).on("click", "#thongsoBtn1", function () {
+    $("#thongso1").toggle();
   });
 
-  $(document).on("click","#thongsoBtn2",function() {
-    $('#thongso2').toggle();
+  $(document).on("click", "#thongsoBtn2", function () {
+    $("#thongso2").toggle();
   });
 
-  $(document).on("click","#thongsoBtn3",function() {
-    $('#thongso3').toggle();
+  $(document).on("click", "#thongsoBtn3", function () {
+    $("#thongso3").toggle();
   });
 
-  $(document).on("click","#thongsoBtn4",function() {
-    $('#thongso4').toggle();
+  $(document).on("click", "#thongsoBtn4", function () {
+    $("#thongso4").toggle();
   });
 
-  $(document).on("click","#thongsoBtn5",function() {
-    $('#thongso5').toggle();
+  $(document).on("click", "#thongsoBtn5", function () {
+    $("#thongso5").toggle();
   });
 
   // CLICK SHOW CAC GOC CUA PHUONG HOANG LUA
-  $(document).on("click",".clickShowImage1",function() {
-    $('.imageShow1').show();
-    $('.imageShow2').hide();
-    $('.imageShow3').hide();
-    $('.imageShow4').hide();
-    $('.imageShow').hide();
+  $(document).on("click", ".clickShowImage1", function () {
+    $(".imageShow1").show();
+    $(".imageShow2").hide();
+    $(".imageShow3").hide();
+    $(".imageShow4").hide();
+    $(".imageShow").hide();
   });
-  $(document).on("click",".clickShowImage2",function() {
-    $('.imageShow2').show();
-    $('.imageShow1').hide();
-    $('.imageShow3').hide();
-    $('.imageShow4').hide();
-    $('.imageShow').hide();
+  $(document).on("click", ".clickShowImage2", function () {
+    $(".imageShow2").show();
+    $(".imageShow1").hide();
+    $(".imageShow3").hide();
+    $(".imageShow4").hide();
+    $(".imageShow").hide();
   });
-  $(document).on("click",".clickShowImage3",function() {
-    $('.imageShow3').show();
-    $('.imageShow1').hide();
-    $('.imageShow2').hide();
-    $('.imageShow').hide();
-    $('.imageShow4').hide();
+  $(document).on("click", ".clickShowImage3", function () {
+    $(".imageShow3").show();
+    $(".imageShow1").hide();
+    $(".imageShow2").hide();
+    $(".imageShow").hide();
+    $(".imageShow4").hide();
   });
-  $(document).on("click",".clickShowImage4",function() {
-    $('.imageShow4').show();
-    $('.imageShow2').hide();
-    $('.imageShow3').hide();
-    $('.imageShow').hide();
-    $('.imageShow1').hide();
+  $(document).on("click", ".clickShowImage4", function () {
+    $(".imageShow4").show();
+    $(".imageShow2").hide();
+    $(".imageShow3").hide();
+    $(".imageShow").hide();
+    $(".imageShow1").hide();
   });
 });
 // CLOSE FORM
-
-
-
-
-

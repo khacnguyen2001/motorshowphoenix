@@ -44,16 +44,16 @@
                         <div class="main-product-phoenix-show-item">
                             <ul>
                                 <li class="clickShowImage1">
-                                    <img src="share/image/product-img-01.png" alt="Bi Laser Phoenix Light">
+                                    <img src="share/image/ph.png" alt="Bi Laser Phoenix Light">
                                 </li>
                                 <li class="clickShowImage2">
-                                    <img src="share/image/den-phoenix.png" alt="Bi Laser Phoenix Light">
+                                    <img src="share/image/anh1.png" alt="Bi Laser Phoenix Light">
                                 </li>
                                 <li class="clickShowImage3">
-                                    <img src="share/image/den-phoenix.png" alt="Bi Laser Phoenix Light">
+                                    <img src="share/image/anh2.png" alt="Bi Laser Phoenix Light">
                                 </li>
                                 <li class="clickShowImage4">
-                                    <img src="share/image/den-phoenix.png" alt="Bi Laser Phoenix Light">
+                                    <img src="share/image/anh3.png" alt="Bi Laser Phoenix Light">
                                 </li>
                             </ul>
                         </div>
@@ -65,15 +65,15 @@
                             </div>
 
                             <div class="phoenix-show-image">
-                                <img class="imageShow" src="share/image/product-img-01.png"
+                                <img class="imageShow" src="share/image/phmb.png" alt="Bi Laser Phoenix Light">
+                                <img class="imageShow1 d-none-ip d-none-mb" src="share/image/ph.png"
+                                    alt="Bi Laser Phoenix Light" style="width: 255px;
+    height: 105px;">
+                                <img class="imageShow2  d-none-ip d-none-mb" src="share/image/anh1.png"
                                     alt="Bi Laser Phoenix Light">
-                                <img class="imageShow1 d-none-ip d-none-mb" src="share/image/product-img-01.png"
+                                <img class="imageShow3  d-none-ip d-none-mb" src="share/image/anh2.png"
                                     alt="Bi Laser Phoenix Light">
-                                <img class="imageShow2  d-none-ip d-none-mb" src="share/image/den-phoenix.png"
-                                    alt="Bi Laser Phoenix Light">
-                                <img class="imageShow3  d-none-ip d-none-mb" src="share/image/airpod.png"
-                                    alt="Bi Laser Phoenix Light">
-                                <img class="imageShow4  d-none-ip d-none-mb" src="share/image/den-phoenix.png"
+                                <img class="imageShow4  d-none-ip d-none-mb" src="share/image/anh3.png"
                                     alt="Bi Laser Phoenix Light">
                             </div>
                         </div>
@@ -106,27 +106,31 @@
             <div class="mySlides fade">
                 <div class="numbertext">1 / 3</div>
                 <div class="number-img">
-                    <img src="share/image/product-img-01.png">
+                    <img src="share/image/phmb.png">
                 </div>
                 <div class="text">
-                    <img src="share/image/bg-product.png" alt="Slideshow">
+                    <!-- <img src="share/image/bg-product.png" alt="Slideshow"> -->
                 </div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">2 / 3</div>
                 <div class="number-img">
-                    <img src="share/image/product-img-01.png">
+                    <img src="share/image/anh1.png">
                 </div>
-                <div class="text"> <img src="share/image/bg-product.png" alt="Slideshow"></div>
+                <div class="text">
+                    <!-- <img src="share/image/bg-product.png" alt="Slideshow"> -->
+                </div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
                 <div class="number-img">
-                    <img src="share/image/product-img-01.png">
+                    <img src="share/image/anh2.png">
                 </div>
-                <div class="text"> <img src="share/image/bg-product.png" alt="Slideshow"></div>
+                <div class="text">
+                    <!-- <img src="share/image/bg-product.png" alt="Slideshow"> -->
+                </div>
             </div>
 
         </div>
@@ -168,7 +172,7 @@
     </section>
     <!-- Thong So Ky Thuat -->
     <section class="rules position-r" id="thongso1">
-        <div class="rules-heading">
+        <div class="rules-heading d-none-mb">
             <div class="rules-heading-image">
                 <img class="img1" src="share/image/heading-1.png" alt="Ảnh Heading">
                 <img class="img2" src="share/image/heading-1.png" alt="Ảnh Heading">
@@ -207,11 +211,11 @@
                         <td>3.0 inch</td>
                     </tr>
                     <tr>
-                        <td>Chip LED/LASER</td>
+                        <td>Chip LED</td>
                         <td>6 - 3</td>
                     </tr>
                     <tr>
-                        <td>Diode laser/td>
+                        <td>Diode LASER</td>
                         <td>2</td>
                     </tr>
                     <tr>
@@ -243,11 +247,11 @@
 
 
             <div class="rules-product">
-                <div class="rules-product-bg">
+                <div class="rules-product-bg d-none d-none-ip d-none-mb">
                     <img src="share/image/new-product-bg.png" alt="Anh Nen">
                 </div>
                 <div class="rules-product-img">
-                    <img src="share/image/product-img-01.png" alt="San Pham">
+                    <img src="share/image/anh1.png" alt="San Pham">
                 </div>
             </div>
 
@@ -272,7 +276,7 @@
 
     <!-- San Pham Chinh: Phuong Hoang Lua Start -->
     <!-- Thời Gian Dem Nguoc Start -->
-    <div class="countdown-time d-none-mb">
+    <div class="countdown-time d-none-mb d-none d-none-ip">
         <div class="container">
             <div id="countdown" class="countdown">
                 <ul>
@@ -303,7 +307,7 @@
                 </div>
 
                 <div class="reward-image">
-                    <img src="share/image/ip14.png" alt="Iphone 14">
+                    <img src="share/image/phone.png" alt="Iphone 14">
                 </div>
             </div>
 
@@ -332,12 +336,13 @@
 
         <div class="new-product-detail">
             <div class="new-product-detail-bg">
-                <img class="d-none-mb" src="share/image/new-product-bg.png" alt="Ảnh Nền Bi Laser Phoenix Light">
-                <img class="d-none d-none-ip" src="share/image/new-product-bg-mb.png"
-                    alt="Ảnh Nền Bi Laser Phoenix Light">
+                <!-- <img class="d-none-mb d-none d-none-ip " src="share/image/new-product-bg.png"
+                    alt="Ảnh Nền Bi Laser Phoenix Light"> -->
+                <!-- <img class="d-none-mb" src="share/image/new-product-bg-mb.png" alt="Ảnh Nền Bi Laser Phoenix Light"> -->
             </div>
             <div class="new-product-detail-img">
-                <img src="share/image/product-img-01.png" alt="Bi Laser Phoenix Light">
+                <img class="d-none-mb" src="share/image/ph.png" alt="Bi Laser Phoenix Light">
+                <img class="d-none" src="share/image/phmb.png" alt="Bi Laser Phoenix Light">
             </div>
         </div>
         <div class="new-product-text d-none d-none-ip">
@@ -356,7 +361,7 @@
                 </div>
             </div>
             <div class="cbaz-text d-none-mb">
-                <p>Khắc họa hình tượng những người anh hùng đời thực, mang vỏ bọc của những con người bình thường nhưng
+                <p>Khắc họa hình tượng những anh hùng đời thực, mang vỏ bọc của những con người bình thường nhưng
                     chứa đựng bên trong là sức mạnh phi thường. Họ mạnh mẽ và âm thầm, chiến đấu bằng trái tim anh hùng,
                     bảo vệ ánh sáng công lý và tương lai tươi đẹp.</p>
             </div>
@@ -366,7 +371,7 @@
         <div class="cbaz-product">
             <div class="cbaz-image bg bg-iron">
                 <div class="cbaz-image-item">
-                    <img src="share/image/product-img-01.png" alt="Ảnh Sản Phẩm Iron">
+                    <img src="share/image/iron.png" alt="Ảnh Sản Phẩm Iron">
                 </div>
             </div>
 
@@ -375,10 +380,10 @@
                     <img src="share/image/ironLogo.png" alt="Tên Sản Phẩm Iron">
                 </div>
                 <p class="fsz-18">LASER PROJECTOR HEADLIGHTS</p>
-                <span class="fsz-12"> m thầm phát triển và vận dụng sức mạnh công nghệ hiện đại để nâng cấp chính mình,
-                    Bi Laser Iron Light chính là người chiến binh đội trưởng thể hiện sự hài hòa trong nhiều yếu tố: ánh
+                <span class="fsz-12"> Âm thầm phát triển và vận dụng sức mạnh công nghệ hiện đại để nâng cấp chính mình,
+                    BI LASER IRON LIGHT chính là người chiến binh đội trưởng thể hiện sự hài hòa trong nhiều yếu tố: Ánh
                     sáng mạnh mẽ, tản nhiệt tối ưu và vận hành cực kỳ ổn định. Đặc biệt như bộ giáp công nghệ tối tân
-                    Iron Man, ánh sáng của CBAZ Iron Light linh hoạt và bền bỉ với 6 Chip LED tiên tiến và Diode Laser
+                    Iron Man, ánh sáng của CBAZ IRON LIGHT linh hoạt và bền bỉ với 6 Chip LED tiên tiến và Diode LASER
                     NICHIA 10W của Nhật Bản, gián tiếp chạy song song với chế độ cos mang đến một tầm nhìn rõ ràng và
                     bao quát hơn.</span>
                 <div class="click d-none d-none-ip">
@@ -430,11 +435,11 @@
                             <td>3.0 inch</td>
                         </tr>
                         <tr>
-                            <td>Chip LED/LASER</td>
+                            <td>LED Chips</td>
                             <td>6 - 3</td>
                         </tr>
                         <tr>
-                            <td>Diode laser</td>
+                            <td>Diode LASER</td>
                             <td>1 (NICHIA 10W)</td>
                         </tr>
                         <tr>
@@ -466,7 +471,7 @@
                         <img src="share/image/new-product-bg.png" alt="Anh Nen">
                     </div>
                     <div class="rules-product-img">
-                        <img src="share/image/product-img-01.png" alt="San Pham">
+                        <img src="share/image/anh1.png" alt="San Pham">
                     </div>
                 </div>
 
@@ -495,7 +500,7 @@
         <div class="cbaz-product">
             <div class="cbaz-image bg bg-captain d-none d-none-ip">
                 <div class="cbaz-image-item-2 cbaz-image-item">
-                    <img src="share/image/product-img-01.png" alt="Ảnh Sản Phẩm Captain">
+                    <img src="share/image/cap.png" alt="Ảnh Sản Phẩm Captain">
                 </div>
             </div>
 
@@ -504,11 +509,11 @@
                     <img src="share/image/captainLogo.png" alt="Tên Sản Phẩm Captain">
                 </div>
                 <p class="fsz-18">LED PROJECTOR HEADLIGHTS 1.8 INCH</p>
-                <span class="fsz-12">Captain Light 1.8 Inch mang hình tượng siêu anh hùng Captain America với một thiết
-                    kế vô cùng tinh tế. Nhỏ gọn nhưng mang tính đột phá, Captain Light 1.8 inch giải quyết những vấn đề
-                    nan giải về kích thước trên các dòng xe cải tiến hiện đại. Cùng với đó là công nghệ chiếu sáng mạnh
-                    mẽ từ Chip LED OSRAM, Bi LED Captain Light như một tấm khiên công nghệ phòng thủ, thầm lặng bảo vệ
-                    cho xe trước màn đêm tối với nguồn sáng ổn định và bền bỉ.</span>
+                <span class="fsz-12">CAPTAIN LIGHT 1.8 INCH mang hình tượng người Đội trưởng anh hùng với thiết kế vô
+                    cùng tinh tế. Nhỏ gọn nhưng mang tính đột phá, CAPTAIN LIGHT 1.8 INCH giải quyết những vấn đề nan
+                    giải về kích thước trên các dòng xe cải tiến hiện đại. Cùng với đó là công nghệ chiếu sáng mạnh mẽ
+                    từ Chip LED OSRAM, Bi LED CAPTAIN LIGHT như một tấm khiên công nghệ phòng thủ, thầm lặng bảo vệ cho
+                    xe trước màn đêm tối với nguồn sáng ổn định và bền bỉ.</span>
                 <div class="click d-none d-none-ip">
                     <p>Thông số kỹ thuật</p>
                     <i class="fal fa-chevron-down clickI" id="clickBtn3"></i>
@@ -518,7 +523,7 @@
 
             <div class="cbaz-image bg bg-captain d-none-mb">
                 <div class="cbaz-image-item">
-                    <img src="share/image/product-img-01.png" alt="Ảnh Sản Phẩm Captain">
+                    <img src="share/image/cap.png" alt="Ảnh Sản Phẩm Captain">
                 </div>
             </div>
 
@@ -565,7 +570,7 @@
                             <td>1.8 inch</td>
                         </tr>
                         <tr>
-                            <td>Chip LED/LASER</td>
+                            <td>LED Chips</td>
                             <td>6 - 3 (LED OSRAM)</td>
                         </tr>
                         <tr>
@@ -597,7 +602,7 @@
                         <img src="share/image/new-product-bg.png" alt="Anh Nen">
                     </div>
                     <div class="rules-product-img">
-                        <img src="share/image/product-img-01.png" alt="San Pham">
+                        <img src="share/image/anh1.png" alt="San Pham">
                     </div>
                 </div>
 
@@ -627,7 +632,7 @@
         <div class="cbaz-product">
             <div class="cbaz-image bg bg-thor">
                 <div class="cbaz-image-item">
-                    <img src="share/image/product-img-01.png" alt="Ảnh Sản Phẩm THOR">
+                    <img src="share/image/thor.png" alt="Ảnh Sản Phẩm THOR">
                 </div>
             </div>
 
@@ -636,11 +641,11 @@
                     <img src="share/image/thorLogo.png" alt="Tên Sản Phẩm THOR">
                 </div>
                 <p class="fsz-18">LASER PROJECTOR HEADLIGHTS 1.8 INCH</p>
-                <span class="fsz-12">Được lấy cảm hứng từ hình tượng nhân vật Thần Sấm Thor - một trong những siêu anh
-                    hùng mạnh nhất vũ trụ, Bi Laser Thor Light 1.8 inch mang đến sự khác biệt chưa từng có trong công
-                    nghệ tăng sáng ô tô. Mạnh mẽ và nhanh chóng như tia sét thần Thor, CBAZ Thor sở hữu ánh sáng pha
-                    Laser 5500K với khả năng phát sáng tốc độ, đặc biệt được tối ưu trong thiết kế 1.8 inch cực kỳ nhỏ
-                    gọn. CBAZ Thor chính là chiếc búa thần đầy quyền năng trong vũ trụ ánh sáng AOZOOM với thứ ánh sáng
+                <span class="fsz-12">Được lấy cảm hứng từ hình tượng nhân vật Thần Sấm - Một trong những siêu anh
+                    hùng mạnh nhất vũ trụ, BI LASER THOR LIGHT 1.8 INCH mang đến sự khác biệt chưa từng có trong công
+                    nghệ tăng sáng ô tô. Mạnh mẽ và nhanh chóng như tia sét thần sấm, CBAZ THOR sở hữu ánh sáng pha
+                    LASER 5500K với khả năng phát sáng tốc độ, đặc biệt được tối ưu trong thiết kế 1.8 inch cực kỳ nhỏ
+                    gọn. CBAZ THOR chính là chiếc búa thần đầy quyền năng trong vũ trụ ánh sáng AOZOOM với thứ ánh sáng
                     mạnh mẽ, bền bỉ, có khả năng xuyên phá mọi không gian bảo vệ bạn an toàn trên mọi hành trình.</span>
                 <div class="click d-none d-none-ip">
                     <p>Thông số kỹ thuật</p>
@@ -691,11 +696,11 @@
                             <td>1.8 inch</td>
                         </tr>
                         <tr>
-                            <td>Chip LED/LASER </td>
+                            <td>LED Chips </td>
                             <td>6 - 3</td>
                         </tr>
                         <tr>
-                            <td>Diode laser</td>
+                            <td>Diode LASER</td>
                             <td>1 (GERMANY)</td>
                         </tr>
                         <tr>
@@ -727,7 +732,7 @@
                         <img src="share/image/new-product-bg.png" alt="Anh Nen">
                     </div>
                     <div class="rules-product-img">
-                        <img src="share/image/product-img-01.png" alt="San Pham">
+                        <img src="share/image/anh1.png" alt="San Pham">
                     </div>
                 </div>
 
@@ -758,15 +763,16 @@
     <section class="azstars-product">
         <div class="container">
             <div class="azstars-product-decs">
-                <p class="fsz-12">RA MẮT BỘ SƯU TẬP</p>
+                <p class="fsz-12">KẾT THÚC BỘ SƯU TẬP</p>
                 <div class="azstars-product-decs-img">
                     <img src="share/image/azstarsLogo.png" alt="Logo AZSTARS">
                 </div>
             </div>
             <div class="azstars-product-text d-none-mb">
-                <p class="fsz-12">Khắc họa anh hùng đời thực, những con người bình thường nhưng bên trong là sức mạnh
-                    phi thường. Họ mạnh mẽ, thầm lặng chiến đấu để bảo vệ ánh sáng công lý và tương lai tươi đẹp bằng cả
-                    trái tim</p>
+                <p class="fsz-12">Vượt thử thách trở thành phiên bản tốt hơn mỗi ngày, ánh sáng từ AZ STARS Z18 PRO đại
+                    diện cho sự nỗ lực không ngừng để chạm đến sự thành công. Áp dụng công nghệ cao cấp của Đức và dây
+                    chuyền sản xuất hiện đại, Bi LED Z18 PRO ra đời mang đến nguồn ánh sáng trực tiếp tâm trắng viền
+                    vàng khác biệt đầy mạnh mẽ, dễ dàng vượt qua mọi thời tiết khắc nghiệt để chạm đến ước mơ.</p>
             </div>
             <button id="thongsoBtn5" class="btn d-none-mb btn-ip">Thông số kỹ thuật</button>
         </div>
@@ -777,12 +783,14 @@
                 <img class="d-none d-none-ip" src="share/image/footerBg-mb.png" alt="Nền Phẩm Mới Của AZSTARS">
             </div>
             <div class="azstars-product-image-item">
-                <img src="share/image/product-img-01.png" alt="Sản Phẩm Mới Của AZSTARS">
+                <img src="share/image/z18.png" alt="Sản Phẩm Mới Của AZSTARS">
             </div>
         </div>
         <div class="azstars-product-text d-none d-none-ip">
-            <p class="fsz-12">PHOENIX LIGHT được lấy cảm hứng từ sự bất tử và tái sinh của Phượng Hoàng Lửa đầy cao quý,
-                hội tụ vẻ đẹp và sức mạnh của nhiều loài linh vật với một vòng đời bất diệt.</p>
+            <p class="fsz-12">Vượt thử thách trở thành phiên bản tốt hơn mỗi ngày, ánh sáng từ AZ STARS Z18 PRO đại diện
+                cho sự nỗ lực không ngừng để chạm đến sự thành công. Áp dụng công nghệ cao cấp của Đức và dây chuyền sản
+                xuất hiện đại, Bi LED Z18 PRO ra đời mang đến nguồn ánh sáng trực tiếp tâm trắng viền vàng khác biệt đầy
+                mạnh mẽ, dễ dàng vượt qua mọi thời tiết khắc nghiệt để chạm đến ước mơ.</p>
         </div>
         <div class="click d-none d-none-ip">
             <p>Thông số kỹ thuật</p>
@@ -831,7 +839,7 @@
                         <td>3.0 inch</td>
                     </tr>
                     <tr>
-                        <td>Chip LED/LASER </td>
+                        <td>LED Chips </td>
                         <td>6 - 1 (MONO LED PRO)</td>
                     </tr>
                     <tr>
@@ -867,7 +875,7 @@
                     <img src="share/image/new-product-bg.png" alt="Anh Nen">
                 </div>
                 <div class="rules-product-img">
-                    <img src="share/image/product-img-01.png" alt="San Pham">
+                    <img src="share/image/anh1.png" alt="San Pham">
                 </div>
             </div>
 
@@ -968,7 +976,8 @@
             <div class="rules-title">
                 <h2>THỂ LỆ CHƯƠNG TRÌNH</h2>
                 <p>VIETNAM MOTO SHOW 2022, gian hàng MT GROUP</p>
-                <span>Khách mua sản phẩm đèn tăng sáng Phượng Hoàng Lửa của AOZOOM VIỆT NAM, mỗi đơn hàng ứng với 1 mã
+                <span>Khách đặt hàng trước sản phẩm đèn tăng sáng Phượng Hoàng Lửa của AOZOOM VIỆT NAM, mỗi đơn hàng ứng
+                    với 1 mã
                     quay số trúng thưởng các sản phẩm dưới đây</span>
             </div>
             <div class="rules-reward">
@@ -1033,7 +1042,7 @@
             background-color: var(--primary);
             display: block;
             text-align: center;
-            margin: 25px auto;text-transform: uppercase;" id="back-rules">Back</button>
+            margin: 25px auto 80px auto;text-transform: uppercase;" id="back-rules">Back</button>
         <div class="rules-footer">
             <div class="rules-footer-image">
                 <img class="img1" src="share/image/footer-1.png" alt="Ảnh Heading">
@@ -1128,7 +1137,7 @@
                         <div class="txt-center">
                             <img src="share/image/aozoomLogo.png" alt="Logo Aozoom">
                         </div>
-                        <button id="closeBtn" type="button" class="txt-right">
+                        <button id="closeBtn1" type="button" class="txt-right">
                             <span class="fas fa-times"></span>
                         </button>
                     </header>
