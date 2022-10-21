@@ -1,0 +1,24 @@
+[20-Oct-2022 22:41:57 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/vtiwfywb/phuonghoanglua/admin-phl/modules/fetch_data_customers.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/vtiwfywb/phuonghoanglua/admin-phl/modules/fetch_data_customers.php on line 63
+[20-Oct-2022 22:42:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/vtiwfywb/phuonghoanglua/admin-phl/modules/fetch_data_customers.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/vtiwfywb/phuonghoanglua/admin-phl/modules/fetch_data_customers.php on line 63
+[20-Oct-2022 22:42:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/vtiwfywb/phuonghoanglua/admin-phl/modules/fetch_data_customers.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/vtiwfywb/phuonghoanglua/admin-phl/modules/fetch_data_customers.php on line 63
+[20-Oct-2022 22:42:46 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/vtiwfywb/phuonghoanglua/admin-phl/modules/fetch_data_customers.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/vtiwfywb/phuonghoanglua/admin-phl/modules/fetch_data_customers.php on line 63
+[20-Oct-2022 22:43:21 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/vtiwfywb/phuonghoanglua/admin-phl/modules/fetch_data_customers.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/vtiwfywb/phuonghoanglua/admin-phl/modules/fetch_data_customers.php on line 63
+[20-Oct-2022 22:44:29 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/vtiwfywb/phuonghoanglua/admin-phl/modules/fetch_data_customers.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/vtiwfywb/phuonghoanglua/admin-phl/modules/fetch_data_customers.php on line 63
